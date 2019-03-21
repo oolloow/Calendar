@@ -40,6 +40,10 @@ typedef enum : NSUInteger
 
 @implementation MainViewController
 
+- (NSString *)calendarAccessDeniedWarning {
+    return @"No love";
+}
+
 #pragma mark - UIViewController
 
 - (id)initWithCoder:(NSCoder *)aDecoder
@@ -140,9 +144,9 @@ typedef enum : NSUInteger
 {
     if (_dayViewController == nil) {
         _dayViewController = [[DayViewController alloc]initWithEventStore:self.eventStore];
+        _dayViewController.delegate = self;
         _dayViewController.calendar = self.calendar;
         _dayViewController.showsWeekHeaderView = YES;
-        _dayViewController.delegate = self;
         _dayViewController.dayPlannerView.eventCoveringType = MGCDayPlannerCoveringTypeComplex;
     }
     return _dayViewController;
@@ -152,8 +156,8 @@ typedef enum : NSUInteger
 {
     if (_weekViewController == nil) {
         _weekViewController = [[WeekViewController alloc]initWithEventStore:self.eventStore];
-        _weekViewController.calendar = self.calendar;
         _weekViewController.delegate = self;
+        _weekViewController.calendar = self.calendar;
     }
     return _weekViewController;
 }
@@ -162,8 +166,8 @@ typedef enum : NSUInteger
 {
     if (_monthViewController == nil) {
         _monthViewController = [[MonthViewController alloc]initWithEventStore:self.eventStore];
-        _monthViewController.calendar = self.calendar;
         _monthViewController.delegate = self;
+        _monthViewController.calendar = self.calendar;
     }
     return _monthViewController;
 }
@@ -172,8 +176,8 @@ typedef enum : NSUInteger
 {
     if (_yearViewController == nil) {
         _yearViewController = [[YearViewController alloc]init];
-        _yearViewController.calendar = self.calendar;
         _yearViewController.delegate = self;
+        _yearViewController.calendar = self.calendar;
     }
     return _yearViewController;
 }
