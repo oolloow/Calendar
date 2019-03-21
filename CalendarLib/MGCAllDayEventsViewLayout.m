@@ -334,7 +334,12 @@ static const CGFloat kCellInset = 4.;
 - (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset
 {
     id<UICollectionViewDelegate> delegate = (id<UICollectionViewDelegate>)self.collectionView.delegate;
-    return [delegate collectionView:self.collectionView targetContentOffsetForProposedContentOffset:proposedContentOffset];
+    if (@available(iOS 9.0, *)) {
+        return [delegate collectionView:self.collectionView targetContentOffsetForProposedContentOffset:proposedContentOffset];
+    } else {
+        // Fallback on earlier versions
+        return CGPointZero;
+    }
 }
 
 

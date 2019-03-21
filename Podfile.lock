@@ -1,5 +1,5 @@
 PODS:
-  - CalendarLib (2.1):
+  - CalendarLib (2.1.1):
     - OrderedDictionary (~> 1.2)
     - OSCache (~> 1.2)
   - OrderedDictionary (1.2)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  CalendarLib: 9df3c4f93ee02736f3a5ddb3d068ad76cc7396a1
+  CalendarLib: 511a3aa32844ed78b86e0fabb4779a3cf75f0161
   OrderedDictionary: 9cc5d69c5c5314ad696ed1839190724e83d534c7
   OSCache: 826996b68e8542a8a3d8af1ab0a0fc3070d8f357
 

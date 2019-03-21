@@ -167,13 +167,14 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     
     self.bgQueue = dispatch_queue_create("MGCDayPlannerEKViewController.bgQueue", NULL);
     
+    NSString* warning = [self.delegate respondsToSelector:@selector(calendarAccessDeniedWarning)] ? [self.delegate calendarAccessDeniedWarning] : nil;
     [self.eventKitSupport checkEventStoreAccessForCalendar:^(BOOL granted) {
         if (granted) {
             NSArray *calendars = [self.eventStore calendarsForEntityType:EKEntityTypeEvent];
             self.visibleCalendars = [NSSet setWithArray:calendars];
             [self reloadEvents];
         }
-    }];
+    } withDeniedMessage:warning];
     
     self.dayPlannerView.calendar = self.calendar;
     [self.dayPlannerView registerClass:MGCStandardEventView.class forEventViewWithReuseIdentifier:EventCellReuseIdentifier];
@@ -218,9 +219,11 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     range.start = [self.calendar mgc_startOfDayForDate:range.start];
     range.end = [self.calendar mgc_nextStartOfDayForDate:range.end];
     
+    NSArray<EKCalendar *> *calendars = [self.delegate respondsToSelector:@selector(calendarsToFetchEventsFrom:)] ? [self.delegate calendarsToFetchEventsFrom: self.eventStore] : nil;
+    
     [range enumerateDaysWithCalendar:self.calendar usingBlock:^(NSDate *date, BOOL *stop) {
         NSDate *dayEnd = [self.calendar mgc_nextStartOfDayForDate:date];
-        NSArray *events = [self fetchEventsFrom:date to:dayEnd calendars:nil];
+        NSArray *events = [self fetchEventsFrom:date to:dayEnd calendars:calendars];
         [self.eventsCache setObject:events forKey:date];
     }];
 }
@@ -249,7 +252,9 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     
     if (!events) {  // cache miss: create dictionary...
         NSDate *dayEnd = [self.calendar mgc_nextStartOfDayForDate:dayStart];
-        events = [self fetchEventsFrom:dayStart to:dayEnd calendars:nil];
+        NSArray<EKCalendar *> *calendars = [self.delegate respondsToSelector:@selector(calendarsToFetchEventsFrom:)] ? [self.delegate calendarsToFetchEventsFrom: self.eventStore] : nil;
+        
+        events = [self fetchEventsFrom:dayStart to:dayEnd calendars:calendars];
         [self.eventsCache setObject:events forKey:dayStart];
     }
     

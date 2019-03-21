@@ -10,7 +10,6 @@
 #import "NSAttributedString+MGCAdditions.h"
 #import "Constant.h"
 
-
 @implementation MonthViewController
 
 #pragma mark - UIViewController
@@ -29,7 +28,7 @@
 	
 	NSDate *date = [self.monthPlannerView dayAtPoint:self.monthPlannerView.center];
 	if (date && [self.delegate respondsToSelector:@selector(calendarViewController:didShowDate:)]) {
-		[self.delegate calendarViewController:self didShowDate:date];
+		[((UIViewController <CalendarViewControllerDelegate> *)self.delegate) calendarViewController:self didShowDate:date];
 	}
 }
 

@@ -64,7 +64,7 @@
 
 #pragma mark - Calendar access authorization
 
-- (void)checkEventStoreAccessForCalendar:(void (^)(BOOL accessGranted))completion
+- (void)checkEventStoreAccessForCalendar:(void (^)(BOOL accessGranted))completion withDeniedMessage: (NSString*) deniedMessage
 {
     EKAuthorizationStatus status = [EKEventStore authorizationStatusForEntityType:EKEntityTypeEvent];
     
@@ -80,7 +80,7 @@
             
         case EKAuthorizationStatusDenied:
         case EKAuthorizationStatusRestricted:
-            [self accessDeniedForCalendar];
+            [self accessDeniedForCalendar: deniedMessage];
             completion(NO);
     }
 }
@@ -103,10 +103,10 @@
     _accessGranted = YES;
 }
 
-- (void)accessDeniedForCalendar
+- (void)accessDeniedForCalendar: (NSString *) message
 {
     NSString *title = NSLocalizedString(@"Warning", nil);
-    NSString *msg = NSLocalizedString(@"Access to the calendar was not authorized", nil);
+    NSString *msg = message != nil ? message : NSLocalizedString(@"Access to the calendar was not authorized", nil);
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [alert show];
 }

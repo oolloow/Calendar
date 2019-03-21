@@ -91,7 +91,12 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 - (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset
 {
     id<UICollectionViewDelegate> delegate = (id<UICollectionViewDelegate>)self.collectionView.delegate;
-    return [delegate collectionView:self.collectionView targetContentOffsetForProposedContentOffset:proposedContentOffset];
+    if (@available(iOS 9.0, *)) {
+        return [delegate collectionView:self.collectionView targetContentOffsetForProposedContentOffset:proposedContentOffset];
+    } else {
+        // Fallback on earlier versions
+        return CGPointZero;
+    }
 }
 
 
@@ -467,8 +472,10 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 - (void)setDimmingColor:(UIColor *)dimmingColor
 {
     _dimmingColor = dimmingColor;
-    for (UIView *v in [self.timedEventsView visibleSupplementaryViewsOfKind:DimmingViewKind]) {
-        v.backgroundColor = dimmingColor;
+    if (@available(iOS 9.0, *)) {
+        for (UIView *v in [self.timedEventsView visibleSupplementaryViewsOfKind:DimmingViewKind]) {
+            v.backgroundColor = dimmingColor;
+        }
     }
 }
 

@@ -8,9 +8,6 @@
 #import "MGCMonthPlannerEKViewController.h"
 #import "MainViewController.h"
 
-
 @interface MonthViewController : MGCMonthPlannerEKViewController <CalendarViewControllerNavigation>
-
-@property (nonatomic, weak) id<CalendarViewControllerDelegate> delegate;
 
 @end

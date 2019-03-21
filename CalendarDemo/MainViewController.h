@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <EventKitUI/EventKitUI.h>
-
+#import "MGCPlannerViewControllerDelegate.h"
 
 @protocol CalendarViewControllerNavigation <NSObject>
 
@@ -27,7 +27,7 @@
 typedef  UIViewController<CalendarViewControllerNavigation> CalendarViewController;
 
 
-@protocol CalendarViewControllerDelegate <NSObject>
+@protocol CalendarViewControllerDelegate<MGCPlannerViewControllerDelegate>
 
 @optional
 

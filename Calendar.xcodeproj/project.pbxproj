@@ -52,6 +52,7 @@
 		072E5EFE1C338559007711A0 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		1F0C1F1B722A7E607C88C0FE /* Pods-CalendarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalendarDemo/Pods-CalendarDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		28486480EAA57CF147A3825F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		333CE7CF2243528F007DB620 /* MGCPlannerViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCPlannerViewControllerDelegate.h; sourceTree = "<group>"; };
 		720041B91879B2B600F3C497 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		720DAE511C6269D900DF8AAA /* NSAttributedString+MGCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MGCAdditions.h"; sourceTree = "<group>"; };
 		720DAE521C6269D900DF8AAA /* NSAttributedString+MGCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MGCAdditions.m"; sourceTree = "<group>"; };
@@ -67,7 +68,7 @@
 		722A55F71892B58B0097B8FB /* MGCMonthPlannerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerViewLayout.h; sourceTree = "<group>"; };
 		722A55F81892B58B0097B8FB /* MGCMonthPlannerViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerViewLayout.m; sourceTree = "<group>"; };
 		722ABE331CB19BAC00713ED3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		722ABE391CB19C6600713ED3 /* CalendarLib.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CalendarLib.podspec; sourceTree = "<group>"; };
+		722ABE391CB19C6600713ED3 /* CalendarLib.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CalendarLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7233530F18397DD90079B240 /* MGCEventCellLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEventCellLayoutAttributes.h; sourceTree = "<group>"; };
 		7233531018397DD90079B240 /* MGCEventCellLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEventCellLayoutAttributes.m; sourceTree = "<group>"; };
 		723925AF188B0AE800DE9578 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -217,6 +218,7 @@
 		723925AB188B040200DE9578 /* EventKit */ = {
 			isa = PBXGroup;
 			children = (
+				333CE7CF2243528F007DB620 /* MGCPlannerViewControllerDelegate.h */,
 				720DAE541C66531300DF8AAA /* MGCEventKitSupport.m */,
 				720DAE561C66534A00DF8AAA /* MGCEventKitSupport.h */,
 				72E82BBB1A80E197008B3E2F /* MGCDayPlannerEKViewController.h */,

@@ -75,7 +75,10 @@ static CGFloat kItemHeight = 60;
         self.dataSource = self;
         self.allowsMultipleSelection = NO;
         self.bounces = NO;
-        self.remembersLastFocusedIndexPath = YES;
+        if (@available(iOS 9.0, *)) {
+            self.remembersLastFocusedIndexPath = YES;
+        }
+        
         self.showsHorizontalScrollIndicator = NO;
         self.backgroundColor = self.headerBackgroundColor;
         

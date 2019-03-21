@@ -1,13 +1,14 @@
 //
-//  MGCDayPlannerEKViewController.h
+//  MGCPlannerViewControllerDelegate.h
 //  Graphical Calendars Library for iOS
 //
 //  Distributed under the MIT License
 //  Get the latest version from here:
 //
-//	https://github.com/jumartin/Calendar
+//    https://github.com/jumartin/Calendar
 //
-//  Copyright (c) 2014-2015 Julien Martin
+//  Created by Alexander Zaytsev on 21/3/19.
+//  Copyright © 2019 Julien Martin. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -28,34 +29,20 @@
 //  SOFTWARE.
 //
 
+#ifndef MGCPlannerViewControllerDelegate_h
+#define MGCPlannerViewControllerDelegate_h
+
 #import <EventKit/EventKit.h>
 #import <EventKitUI/EventKitUI.h>
-#import "MGCDayPlannerViewController.h"
-#import "MGCPlannerViewControllerDelegate.h"
 
-@protocol MGCDayPlannerEKViewControllerDelegate;
-
-
-@interface MGCDayPlannerEKViewController : MGCDayPlannerViewController<UIPopoverPresentationControllerDelegate>
-
-@property (nonatomic) NSCalendar *calendar;
-@property (nonatomic) NSSet *visibleCalendars;
-@property (nonatomic, readonly) EKEventStore *eventStore;
-@property (nonatomic, weak) id<MGCDayPlannerEKViewControllerDelegate> delegate;
-
-/** designated initializer */
-- (instancetype)initWithEventStore:(EKEventStore*)eventStore;
-- (void)reloadEvents;
-
-@end
-
-
-@protocol MGCDayPlannerEKViewControllerDelegate<MGCPlannerViewControllerDelegate>
+@protocol MGCPlannerViewControllerDelegate<NSObject>
 
 
 @optional
 
-- (void)dayPlannerEKEViewController:(MGCDayPlannerEKViewController*)vc willPresentEventViewController:(EKEventViewController*)eventViewController;                                     
-- (UINavigationController*)dayPlannerEKViewController:(MGCDayPlannerEKViewController*)vc navigationControllerForPresentingEventViewController:(EKEventViewController*)eventViewController;
-
+- (NSString*)calendarAccessDeniedWarning;
+- (NSArray<EKCalendar *> *)calendarsToFetchEventsFrom: (EKEventStore *)eventStore;
 @end
+
+
+#endif /* MGCPlannerViewControllerDelegate_h */

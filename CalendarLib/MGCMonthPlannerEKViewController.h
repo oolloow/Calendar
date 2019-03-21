@@ -30,13 +30,14 @@
 
 #import <EventKit/EventKit.h>
 #import "MGCMonthPlannerViewController.h"
-
+#import "MGCPlannerViewControllerDelegate.h"
 
 @interface MGCMonthPlannerEKViewController : MGCMonthPlannerViewController<UIPopoverPresentationControllerDelegate>
 
 @property (nonatomic) NSCalendar *calendar;
 @property (nonatomic) NSSet *visibleCalendars;
 @property (nonatomic, readonly) EKEventStore *eventStore;
+@property (nonatomic, weak) id<MGCPlannerViewControllerDelegate> delegate;
 
 /** designated initializer */
 - (instancetype)initWithEventStore:(EKEventStore*)eventStore;

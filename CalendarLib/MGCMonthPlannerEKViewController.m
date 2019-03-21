@@ -151,13 +151,14 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     self.dateFormatter.dateStyle = NSDateFormatterNoStyle;
     self.dateFormatter.timeStyle = NSDateFormatterShortStyle;
     
+    NSString* warning = [self.delegate respondsToSelector:@selector(calendarAccessDeniedWarning)] ? [self.delegate calendarAccessDeniedWarning] : nil;
     [self.eventKitSupport checkEventStoreAccessForCalendar:^(BOOL granted) {
         if (granted) {
             NSArray *calendars = [self.eventStore calendarsForEntityType:EKEntityTypeEvent];
             self.visibleCalendars = [NSSet setWithArray:calendars];
             [self reloadEvents];
         }
-    }];
+    } withDeniedMessage:warning];
     
     self.monthPlannerView.calendar = self.calendar;
     [self.monthPlannerView registerClass:MGCStandardEventView.class forEventCellReuseIdentifier:EventCellReuseIdentifier];
@@ -251,7 +252,8 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
 
 - (NSDictionary*)allEventsInDateRange:(MGCDateRange*)range
 {
-	NSArray *events = [self fetchEventsFrom:range.start to:range.end calendars:nil];
+    NSArray<EKCalendar *> *calendars = [self.delegate respondsToSelector:@selector(calendarsToFetchEventsFrom:)] ? [self.delegate calendarsToFetchEventsFrom: self.eventStore] : nil;
+	NSArray *events = [self fetchEventsFrom:range.start to:range.end calendars:calendars];
 	
 	NSUInteger numDaysInRange = [range components:NSCalendarUnitDay forCalendar:self.calendar].day;
 	NSMutableDictionary *eventsPerDay = [NSMutableDictionary dictionaryWithCapacity:numDaysInRange];
