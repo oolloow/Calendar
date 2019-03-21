@@ -192,7 +192,7 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 	_canCreateEvents = YES;
 	_canMoveEvents = YES;
 	_allowsSelection = YES;
-    _eventCoveringType = TimedEventCoveringTypeClassic;
+    _eventCoveringType = MGCDayPlannerCoveringTypeClassic;
 	
 	_reuseQueue = [[MGCReusableObjectQueue alloc] init];
 	_loadingDays = [NSMutableOrderedSet orderedSetWithCapacity:14];
@@ -1045,7 +1045,12 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 			MGCEventType type = (view == self.timedEventsView) ? MGCTimedEventType : MGCAllDayEventType;
 			
 			[self selectEventWithDelegate:YES type:type atIndex:path.item date:date];
-		}
+        } else {
+            CGPoint ptSelf = [gesture locationInView:self];
+            CGFloat createEventSlotHeight = floor(self.durationForNewTimedEvent * self.hourSlotHeight / 60.0f / 60.0f);
+            NSDate *date = [self dateAtPoint:CGPointMake(ptSelf.x, ptSelf.y - createEventSlotHeight / 2) rounded:YES];
+            [self didSelectEmptyDate:date];
+        }
 	}
 }
 
@@ -1057,6 +1062,12 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 		return cell.eventView;
 	}
 	return nil;
+}
+
+- (void) didSelectEmptyDate:(NSDate *)date {
+    if ([self.delegate respondsToSelector:@selector(dayPlannerView:didSelectEmptyEventFor:)]) {
+        [self.delegate dayPlannerView:self didSelectEmptyEventFor:date];
+    }
 }
 
 // tellDelegate is used to distinguish between user selection (touch) where delegate is informed,
@@ -1566,7 +1577,7 @@ static const CGFloat kMaxHourSlotHeight = 150.;
         [self.timedEventsView reloadData];
 		
         MGCTimedEventsViewLayoutInvalidationContext *context = [MGCTimedEventsViewLayoutInvalidationContext new];
-        context.invalidatedSections = [NSIndexSet indexSetWithIndex:section];
+        context.invalidatedSections = [NSMutableIndexSet indexSetWithIndex:section];
         [self.timedEventsView.collectionViewLayout invalidateLayoutWithContext:context];
 
 		[self refreshEventMarkForColumnAtDate:date];
@@ -1579,7 +1590,7 @@ static const CGFloat kMaxHourSlotHeight = 150.;
     [self.dimmedTimeRangesCache removeAllObjects];
     
     MGCTimedEventsViewLayoutInvalidationContext *context = [MGCTimedEventsViewLayoutInvalidationContext new];
-    context.invalidatedSections = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, self.numberOfLoadedDays)];
+    context.invalidatedSections = [NSMutableIndexSet indexSetWithIndexesInRange:NSMakeRange(0, self.numberOfLoadedDays)];
     context.invalidateEventCells = NO;
     context.invalidateDimmingViews = YES;
     [self.timedEventsView.collectionViewLayout invalidateLayoutWithContext:context];
@@ -1932,6 +1943,8 @@ static const CGFloat kMaxHourSlotHeight = 150.;
         [view addSubview:label];
         
         return view;
+    } else {
+        return nil;
     }
 }
 

@@ -161,7 +161,7 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(reloadEvents) name:EKEventStoreChangedNotification object:self.eventStore];
     
-    self.eventsCache = [[OSCache alloc]init];
+    self.eventsCache = [[OSCache alloc] init];
     self.eventsCache.countLimit = cacheSize;
     //self.eventsCache.delegate = self;
     
@@ -401,7 +401,7 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     EKEvent *ev = [self eventOfType:type atIndex:index date:date];
     
     if (ev) {
-        NSDateComponents *duration = [self.calendar components:NSMinuteCalendarUnit fromDate:ev.startDate toDate:ev.endDate options:0];
+        NSDateComponents *duration = [self.calendar components:NSCalendarUnitMinute fromDate:ev.startDate toDate:ev.endDate options:0];
         if (ev.allDay && targetType == MGCTimedEventType) {
             duration.minute = view.durationForNewTimedEvent / 60;
         }

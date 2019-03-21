@@ -81,7 +81,8 @@ static NSDateFormatter *dateFormatter;
 
 - (NSDateComponents*)components:(NSCalendarUnit)unitFlags forCalendar:(NSCalendar*)calendar
 {
-	[self checkIfValid];
+    // As per: https://github.com/jumartin/Calendar/pull/108
+	// [self checkIfValid];
 	
 	return [calendar components:unitFlags fromDate:self.start toDate:self.end options:0];
 }

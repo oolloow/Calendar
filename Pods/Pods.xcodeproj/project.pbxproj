@@ -7,726 +7,670 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD8EEF83D60B467C0D92522C179EF3F /* MGCReusableObjectQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A75E26ECCE9E325A71FE30987EDF49 /* MGCReusableObjectQueue.m */; };
-		10040D2BC447B188F90C6D1358FF833B /* MGCDayPlannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ADBAC255FCEC8B18E2D22CEB022244 /* MGCDayPlannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10440B43B679E057C81AE26E6737C71A /* Pods-CalendarDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F46BB6ABD311E312D5CE6A1A3521632F /* Pods-CalendarDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12E7AF496E5CBE616581F40EA8CC55FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184D1D2346ED6E14A32ADF6A8380122B /* UIKit.framework */; };
-		15382445402A28617FCA964461A6B4BA /* MGCMonthPlannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC117D89CD9649F60918F291C163452 /* MGCMonthPlannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		165AC579BF526F5FA7BC861EB1E98A5E /* MGCYearCalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C94953057A7A4E757F95D59B4E75B /* MGCYearCalendarMonthHeaderView.m */; };
-		16C92160004A461104976AE8D9ECECC1 /* CalendarLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF033CC11CFDD51637546D1E566D7555 /* CalendarLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19F22C8E0461D90DCB5CAA2E2FD67B02 /* MGCTimedEventsViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A021769F55E122F239757FDC93C0B8B7 /* MGCTimedEventsViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1A9BC91D8D76AC397062ACE2EB451390 /* MGCMonthPlannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 934AC6397F68D5F15DA64421BE08C1A4 /* MGCMonthPlannerView.m */; };
-		283AE0B9767480D604A0F53E39522C3D /* MGCDayPlannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8709F47F1202384A6577453DF2E776 /* MGCDayPlannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		283F36B27EFB452A37D27FBDAD6EB173 /* MGCEventKitSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0F9DD62CFDC941842A2D67F57E9289 /* MGCEventKitSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		29E8849D9EE6CF5F258DCD59CAE90BA3 /* MGCDateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE721EBDAE294A03673CD1248B07ABC /* MGCDateRange.m */; };
-		2BEB9A448F785B4ABD58E7E5A0C0AAB8 /* MGCEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CA1070A72D5B616A44BC999DC6575F /* MGCEventView.m */; };
-		3260AFF8730CC2F514A4B476F6E3B1C9 /* MGCEventsRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C08DFD4AF9A6CEA2A502ACD58A728303 /* MGCEventsRowView.m */; };
-		346A291DD56A77A5080532CCF8C8C0DA /* MGCDayColumnCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA83E09087DAB7A93486006F5D66EC7 /* MGCDayColumnCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35029C6B4FA6AD6A0553D5BA04E025EA /* MGCAlignedGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4B07529A2197D70A55B6D7B5BCECBD /* MGCAlignedGeometry.m */; };
-		35168AD739FC86E090E22E4D715D77BD /* MGCReusableObjectQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 96410F223170B0D6732DB4AB7632821F /* MGCReusableObjectQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35F955276513957B6951657920F606D1 /* Pods-CalendarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25233512573BAC19936AB8B585997361 /* Pods-CalendarDemo-dummy.m */; };
-		37DBF567D2C4D15EC52DD728B4A4C2ED /* MGCMonthPlannerBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F98D1CBD468157CC87E1534FD297D /* MGCMonthPlannerBackgroundView.m */; };
-		3C1CC6C04D875D926256FFAB09BA85EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E475E0EAF339997987B1A35247D49DE /* CoreGraphics.framework */; };
-		3D8DB0D93E99C225519CB0B964BB76F0 /* MGCMonthPlannerWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC30C1BC622800CC72FA23CF9CB8AB40 /* MGCMonthPlannerWeekView.m */; };
-		3E7B77774073428F0EDBA7F9B27B498D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D064917209003916B29AF2C1D58E6B7 /* Foundation.framework */; };
-		3F0BCD07266D82C97C13C958CA64C33D /* MGCDayPlannerEKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B32538B37024E5C7870BF811F48A57C /* MGCDayPlannerEKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F5F2CEFF434DDCA14403D6B50D9D5DC /* OrderedDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D39AF81A0F8E48F554E38EC0E237D15 /* OrderedDictionary-dummy.m */; };
-		40270C224A640E091730C3F668E3633D /* MGCDateRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA301017D15B64FEE4ACA4D179F98E6 /* MGCDateRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4397926F702DA9AE79D00C59106E2099 /* Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = A14FC8E1DA423047B4BD53F770157AA2 /* Constant.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		44C3A8E49CF779F8E6C61A9E1F51A74D /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D2176FE612DD0596CE7C681E14BEEA3D /* en.lproj */; };
-		4865DF5B9828CC1A6D9134053729AD4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D064917209003916B29AF2C1D58E6B7 /* Foundation.framework */; };
-		4922375228078DC8286BD4E99CD1EE21 /* OSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B109FCF8326A98A81D6FE07BA9A2CE3 /* OSCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		49B450EAE456ECB2647A3D637CC1B852 /* MGCMonthPlannerViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 361E02A32A0D91554059D7DA815376ED /* MGCMonthPlannerViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B0870E36D23BD129E6C0280E2808F3E /* MGCEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8642DF879250346F1FFEF4BD8D9BE06 /* MGCEventCell.m */; };
-		53BC63EF2BFA0161AD495D4705E5B73D /* MGCMonthPlannerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2884C2460A111F124151B5DC9ED17D /* MGCMonthPlannerHeaderView.m */; };
-		54986D8A0769E0968396794DB5CF53AD /* MGCEventsRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1AFEA81FE3EEF9BD457D565C2F56F7 /* MGCEventsRowView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5553D815BA0ECF462F0454F8CF32B6C9 /* MGCEventKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7247DD48FFD9C0A9A6592AFF50EAB445 /* MGCEventKitSupport.m */; };
-		573CA837DA4F7C1B9371A8A283001B90 /* MGCMonthPlannerBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C7E727EED0A50DA45041DE31137F8 /* MGCMonthPlannerBackgroundView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		575AD525B5810BD268D31DE10E9D981C /* MGCYearCalendarMonthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA7D2CB8BE37041E07C43FD98BD53E /* MGCYearCalendarMonthCell.m */; };
-		5B5865D94AE1962D0BDE732CCCA5FCB4 /* NSCalendar+MGCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A81DC455C8A11ABDE63E387401038A /* NSCalendar+MGCAdditions.m */; };
-		5BDF04C89F0F2C5BF48B3FD813AA5E2E /* MGCStandardEventView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CF035F29148878B13673869A38496E /* MGCStandardEventView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61F3B5E100AF6B8DFCBD8EC07A31735E /* MGCAllDayEventsViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD5A1B70C24D5E15C7902A3810AD71B /* MGCAllDayEventsViewLayout.m */; };
-		666876A324A754DE9EC656D6B4A75C8A /* MGCTimeRowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 639E8D3DEC720A9B52315E961AE4C21F /* MGCTimeRowsView.m */; };
-		6B8A6D46DE2B271A9CF861E8EBA075D5 /* MGCEventCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E45A50DA2DE157EEED14F329472CFCD /* MGCEventCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		72A71ECA963D06465DFD8B3E12AD41BE /* MGCDayPlannerEKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860FA75B2828CFF3C94D193ED84E8F4 /* MGCDayPlannerEKViewController.m */; };
-		75EA39995111C0925C1F8793C0F19255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D064917209003916B29AF2C1D58E6B7 /* Foundation.framework */; };
-		7A02B3D0D0A5C4F9A05668A732FDF73F /* OrderedDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334F0D464F275262D14ACFCE6E1E9D68 /* OrderedDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CB4DDDC12B79389CFC8C49DCF39C1A2 /* OSCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DC81CEC32D28A3FA47B4D4057E07E1 /* OSCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84A07A7FFF9C2A776980FEE43091F865 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D83C7B4870A7AC1B7D6EA9D800818168 /* fr.lproj */; };
-		853E943F3A44E653A19A993E22E885C0 /* MGCMonthPlannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE16E5343143115FF8D70DB3E614D7E /* MGCMonthPlannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85EE00D6E106AFF3B3D6A5CE1EAAD041 /* MGCDayColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D826449F2F9E350884A3E4683683487 /* MGCDayColumnCell.m */; };
-		8A637532D7C717B031F5479C9DFDCF96 /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = E63EF56F13F78687828039FC20CB4645 /* OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AAB64C0FF8986D4580019BB0F37066D /* MGCYearCalendarMonthCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 484752CE8E4D5723FC9E1A2BA7FE6DE7 /* MGCYearCalendarMonthCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8C5F4307DCA368C7F9DB7ED256DA31D1 /* MGCDayPlannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43488965D4CAA1FDD110FDD5A4BF085E /* MGCDayPlannerViewController.m */; };
-		8D2AC2F545A689196AD380EB39531B0A /* MGCMonthPlannerEKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 035838A3E1D5E440BB9A3B651CB0622E /* MGCMonthPlannerEKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C706FCCF0E309E935E3D2FE5A591D07 /* CalendarLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1870F870C6857E28D9CE5AF9B2A1098 /* CalendarLib-dummy.m */; };
-		9C8B2BAEF1120713575CAD5BE1DD916E /* MGCMonthMiniCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C99F8B5BDB75CF001C1E1E7A4121D4E /* MGCMonthMiniCalendarView.m */; };
-		A4E3633A2C1959A55C3CFDFDFD37FBC2 /* NSCalendar+MGCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA5399E009C1D573DE21980363BB9 /* NSCalendar+MGCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A76C549C7C4534A81AD9B6ACA732DDB8 /* MGCEventCellLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585227A1FC9C596796A9E3CA5C4D56E /* MGCEventCellLayoutAttributes.m */; };
-		A82B51DBD620C3F9150E16E71B1125FD /* MGCMonthPlannerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDB84AF839AEE748D67C6C78AC17D1A /* MGCMonthPlannerHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AB3FE3B79D8358BDB3E3C508558276B4 /* MGCTimeRowsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C49D72D796EFAA8308A1D0B15E8D25 /* MGCTimeRowsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AB467272C402ACAEBE8E72A7FEA04A55 /* MGCTimedEventsViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F8F6F011D72119E3CF3F18A91BCDAF /* MGCTimedEventsViewLayout.m */; };
-		AEF45D844795868F471C231D4DBADA86 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2FC2AF2409E900FA1C0219F88231A5 /* EventKitUI.framework */; };
-		B34A1260B1EC1E724AC20BBD8329671F /* MGCAlignedGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = D87993AA397DD65C4DECA997776FE0B2 /* MGCAlignedGeometry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B4479162A06A4B6E1321D7C5A73581A4 /* MGCStandardEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47DD2122985745BFECD98CDF38DADE /* MGCStandardEventView.m */; };
-		B74FE528568313CE30EA6D663738BB34 /* MGCYearCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B7B88BE0B1447662D1EAB5590D5939 /* MGCYearCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B826786804B51980ECAEA62B1B41B2BC /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2EA39F8FE5E48E7B9712F35754B74 /* OrderedDictionary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BC129756EB184EB7B54FC078D77EAE6F /* CalendarLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 474F46F9D3CD4C66494C6398945993BC /* CalendarLib.bundle */; };
-		BC32A46E1D31055C00AB19D7 /* MGCCalendarHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BC32A4691D31055C00AB19D7 /* MGCCalendarHeaderCell.h */; };
-		BC32A46F1D31055C00AB19D7 /* MGCCalendarHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC32A46A1D31055C00AB19D7 /* MGCCalendarHeaderCell.m */; };
-		BC32A4711D31055C00AB19D7 /* MGCCalendarHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC32A46B1D31055C00AB19D7 /* MGCCalendarHeaderCell.xib */; };
-		BC32A4721D31055C00AB19D7 /* MGCCalendarHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC32A46B1D31055C00AB19D7 /* MGCCalendarHeaderCell.xib */; };
-		BC32A4731D31055C00AB19D7 /* MGCCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC32A46C1D31055C00AB19D7 /* MGCCalendarHeaderView.h */; };
-		BC32A4741D31055C00AB19D7 /* MGCCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC32A46D1D31055C00AB19D7 /* MGCCalendarHeaderView.m */; };
-		BC3300D03E96ADC4526AC9CFE3110876 /* MGCAllDayEventsViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C709E8D3709828F4CDCC6F9E8B8F1F /* MGCAllDayEventsViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC4DAE0E1E3ED7AEF78839F4815A0211 /* MGCMonthPlannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F33A77B1C88FA226CA3F123445A1AB4 /* MGCMonthPlannerViewController.m */; };
-		BE3DF61E19CE6628EFBC28FC4E5249F1 /* MGCYearCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C8D6DE7DAE5F35E652CCE40F50B208 /* MGCYearCalendarView.m */; };
-		C172318723A82A556756CE7A10ED572B /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B7B1DA5EB4C3FA05D4BB2B2B9700FD /* EventKit.framework */; };
-		C2E9436B5AD60E85AD494381590EBEC4 /* MGCMonthPlannerViewDayCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EA47F11125BF0BED9FC31F762B3C5EAA /* MGCMonthPlannerViewDayCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C604B7A49ABD9407AA6E50F1D1B4BF3B /* MGCMonthPlannerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A86D4E3C34B4408539DE36D34D85E /* MGCMonthPlannerViewLayout.m */; };
-		C7C218477AEAAFD0EA27A58A9573F231 /* MGCEventCellLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DA0727BCAAE002FE5C811A4E13B6DA /* MGCEventCellLayoutAttributes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CBC4E2B6ED53D394ACEE641727ABD9F2 /* MGCMonthPlannerWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 682F557D317E6B35EF72FB6490A1B17F /* MGCMonthPlannerWeekView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CBE4FB461D2A7FEC45F3F58EB90D2906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D064917209003916B29AF2C1D58E6B7 /* Foundation.framework */; };
-		D03C03FB5C6CA1F143621A42605C78A6 /* NSAttributedString+MGCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D51543B38B03130DB1C1328336A7210A /* NSAttributedString+MGCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4AF7DE5DD942DA2C7819174168125C8 /* MGCYearCalendarMonthHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA158124FBDD717544FED9263FBD303 /* MGCYearCalendarMonthHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D865046DF81EB3FB4A8D12EB03740124 /* MGCInteractiveEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272436DEBAF47D9A85D674C955A18A5E /* MGCInteractiveEventView.m */; };
-		DEF1FBD0689397BC6AB8BDA6BB8AB78A /* OrderedDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D6E0D174F4DE38CD29304BC2BA2282 /* OrderedDictionary.framework */; };
-		DF0507A59387E5CBE881FD0E56A6EFCC /* OSCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC2F4E580C735F08DDD3E5212CA9F43 /* OSCache.framework */; };
-		E9AE3F473F8DBF38B493A0680606EDDA /* MGCMonthPlannerViewDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5747BE9957E0A918225217BBE905449 /* MGCMonthPlannerViewDayCell.m */; };
-		EC8FF04893A567958DF9E6CE758D24EB /* OSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EFFEA70CE3F29C1F727328CD11F594 /* OSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F091908CE32B34A524ABBD458D4C2FDA /* NSAttributedString+MGCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8285ABCC5BD108881B8D64CDE642EC /* NSAttributedString+MGCAdditions.m */; };
-		F0BFAF44B9F2E107744B1EC5ED51A912 /* OSCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D312E569E43BEDEAB80ABB313B2DA37B /* OSCache-dummy.m */; };
-		F25B2B6D821D0E1D771058D5FF140FD3 /* MGCMonthMiniCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE13CF28836D0DBD67E1C1547545C67A /* MGCMonthMiniCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5D52A699620031B048F46462041E2F2 /* MGCInteractiveEventView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0658BFDB814DEB3ECCDA99ECA7521DD9 /* MGCInteractiveEventView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F73109644FB32F739BF1198430F0A34F /* MGCMonthPlannerEKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEADC186D2B7AD760C9F3F892E3DC97 /* MGCMonthPlannerEKViewController.m */; };
-		FA3B1812DFF8E7491ED66C2395EFB8AC /* MGCEventView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8B59A20F855C881309ECC830CB2A24 /* MGCEventView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC40921F50ED56C61523597E5D292C4D /* MGCDayPlannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 025D804BECA3FA4FB3437E02C746D838 /* MGCDayPlannerView.m */; };
+		00D36CC7F080A332C411A76FF1ADA5FF /* MGCAllDayEventsViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CE10A1CB5B50D2FE55DD38DEF65331 /* MGCAllDayEventsViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03D943766406209FACB186E497373270 /* MGCDayPlannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A91C06FD427817B1D091A439072E92 /* MGCDayPlannerView.m */; };
+		056F996B52BD59003DBFD711DB6BD021 /* MGCYearCalendarMonthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB55B9F8F26246BD38A0E027361D82C /* MGCYearCalendarMonthCell.m */; };
+		065EA57724E14C75806811E3AB4B20D6 /* MGCMonthPlannerWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB33DBECD28C6DBEC0DA4951AA1BC25B /* MGCMonthPlannerWeekView.m */; };
+		0BA718A83A8C1D604438A3937C81490C /* MGCYearCalendarMonthCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 52749ACA7987F770FBE5BA66C6E80BA1 /* MGCYearCalendarMonthCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DFCEF3CDEA4C5974B34A672CA3E9A5F /* MGCEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF6FA0788DBA6BEE4870AF738D8B88 /* MGCEventCell.m */; };
+		113403F9F75F81522495F3C71C3BF0B1 /* MGCEventView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B116A624FD72DD1B41C9144BCED7E73 /* MGCEventView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B7E5B0873587DE9C55D91ED50F8070 /* MGCAlignedGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811EE523E969A31D5AE9B67453AA7DE /* MGCAlignedGeometry.m */; };
+		12F1A4489B0890E48014C9796B7D4C77 /* OrderedDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE3815E1D2F22D845953623BBA75264 /* OrderedDictionary.framework */; };
+		15B59CCD89373321D0C870C3D834BF08 /* MGCDayPlannerEKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C509A964578D91B71D4A6D4EE86F3 /* MGCDayPlannerEKViewController.m */; };
+		1C043ED8345F1AD0E16B5D624818CB16 /* Pods-CalendarDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CA1160E8C85FA084284FE50CEDAC2A /* Pods-CalendarDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D66BE4E8493292BE02AC9E7AC492649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8E1CE4AC2EDF4B03CD931C2E172F03 /* Foundation.framework */; };
+		2085DE6EFDD5F63ED6DE3A66AC493232 /* MGCMonthPlannerWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8153FEA784E3396A83C03EEB33218017 /* MGCMonthPlannerWeekView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		217415D01C6947204008C1E8265CBBC3 /* MGCCalendarHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3D52DCA3EE72D1295FBFC05FEE7A34 /* MGCCalendarHeaderCell.xib */; };
+		2199ADFFDF680EB62A0CB043A43C79AD /* MGCMonthPlannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF362D3E5C50EDE264284E05C9C016F2 /* MGCMonthPlannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		299BDB3A094D569C08B7E83A1EAF0758 /* MGCMonthPlannerEKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1907E87ADFFBE739B3977B8C201FB81 /* MGCMonthPlannerEKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A82FCCE8A320E8D3E5E608E623ACFE5 /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 171E7E86F81018A7AFA523AD426E1A08 /* OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6EBC6FF8FD5440ABCA2BC87378B7BB /* MGCEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9FD99E80E7D5EAD4C6A9068B8A901F /* MGCEventView.m */; };
+		2CFB3446DA859A1B7CF38115ADC15945 /* MGCEventsRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 860291BF57252748B1860217AD4065F4 /* MGCEventsRowView.m */; };
+		2D6DF4BE6A0D8E1CC0E157908D8420E5 /* MGCMonthPlannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACD5C928A4B27D614BF3515FB4C933 /* MGCMonthPlannerView.m */; };
+		2E7E16775471966E9E0CA33B1C4D061A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB619158241F1CD5141BC9B254160ED9 /* CoreGraphics.framework */; };
+		2FD0FB27C84F44EDACFF4B10A76B394C /* Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = 07592CB6186723A156775F34FF7C4E72 /* Constant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31B3A7A94C693A6F4EDDAE1A80E6FE06 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D9CA28CE925F139F7193A3E47EB1855D /* fr.lproj */; };
+		32867BA7A00AC2C42D5782A99BA182A4 /* CalendarLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7027A477F855EAE9B917B45A2C572 /* CalendarLib.bundle */; };
+		3471651C158DFEBA68FF25915C46CC6C /* MGCCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8862890B9E817DCF7D020624A0924 /* MGCCalendarHeaderView.m */; };
+		3619EEBA51D38379CC78E21A163C7A98 /* MGCEventCellLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = FACB5ECE250312CBE9E9F65D51B51DC7 /* MGCEventCellLayoutAttributes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40E42BA5D9A7E4AB4151231DA5C7D051 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 50DF51A7EFFD4036FD5B86DBA0255996 /* en.lproj */; };
+		4385AE67F6FAE5B0C3854F0D975FFD25 /* MGCMonthPlannerViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 19641B46A4A19C8F435CD388C7A4EC1F /* MGCMonthPlannerViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		441B096CC32852F38E9F33A5FAD4B1BB /* MGCTimeRowsView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3630406AF115AA6632CEDD7F65D087 /* MGCTimeRowsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		470DD5AFB40FC239B3DB373C8F524475 /* MGCYearCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3ABD74DF1850577BF0CA64306673C1 /* MGCYearCalendarView.m */; };
+		4A6A79572CF776A9A813C1516E59749B /* CalendarLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1BC56D027936405B7F36C4B9FA345B /* CalendarLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C012230C30C5B0757438753983F278C /* MGCStandardEventView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A88D4B41B6AF315A1FD154F116A656 /* MGCStandardEventView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C83CAA0B5BFF558D236A849A8593963 /* MGCAllDayEventsViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D85AB2511667697D06A29380B5A0B /* MGCAllDayEventsViewLayout.m */; };
+		50E0B470F5247FDF76DBD971FE8292E7 /* MGCDateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC44ADAEE4E4450293A07522D115167 /* MGCDateRange.m */; };
+		550659C466F4DE236D09765ADBCA2105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8E1CE4AC2EDF4B03CD931C2E172F03 /* Foundation.framework */; };
+		5562A2CDA7BE1FF3DA536F4DC6F30A4B /* MGCMonthPlannerBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D94588F8394EA48C2E25415FD5C60 /* MGCMonthPlannerBackgroundView.m */; };
+		5660EBFD7EA108E8EB8E348DAEAA1D10 /* MGCDayPlannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEEC942EEB5DBC9FE2E51CF8F9138DE /* MGCDayPlannerViewController.m */; };
+		5908B94CA3E3A6281D135FBBF9E03BEE /* MGCMonthPlannerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1876F2ABCD50340D642418D9C013430 /* MGCMonthPlannerHeaderView.m */; };
+		5D0524CDBF7646AE1943731F9B2055AC /* NSAttributedString+MGCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ABF4AB9EFE9CC00CDCF62EB28FD927 /* NSAttributedString+MGCAdditions.m */; };
+		5F8D204BA15C984639835AFA0B75CE8B /* NSAttributedString+MGCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B04F9D9E38DC74125C982B588412B140 /* NSAttributedString+MGCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68DE01A41323E57448A3FC3C8C7331C3 /* MGCMonthPlannerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C5E4A4F8E632A45E71A994D7D51502 /* MGCMonthPlannerViewLayout.m */; };
+		69291A81F5DF2F97CCAB935ACA59AD0E /* NSCalendar+MGCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E754B64C00DAE7E4A9763A9F2218B8E7 /* NSCalendar+MGCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9123BAE9F35512F6EEECBEAFEDB894 /* MGCDayColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B33180837ED4A58E01E61F0FA8E083 /* MGCDayColumnCell.m */; };
+		72340A5C59138965FE8DC1F61F26F275 /* OSCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8449064A4F402A80952F2CD78F12B35 /* OSCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C8E68DAB7D17F72D312DC9F8D6E05C /* MGCEventCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 334154F036063111C51B85DD9DC522B2 /* MGCEventCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77F33C4DFB16C232E37F236994E3E593 /* MGCYearCalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFB720F608B90BF91A4839C396259E5 /* MGCYearCalendarMonthHeaderView.m */; };
+		7BD6B8693B1A889F3790D466D249BB7C /* MGCCalendarHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE42188039958E7E6D73332EEDA6F675 /* MGCCalendarHeaderCell.m */; };
+		7BF7CA71AD5885413229C3F914DE35FA /* MGCMonthPlannerEKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F470F47CD387A26A9A0BD6BF738722A9 /* MGCMonthPlannerEKViewController.m */; };
+		80F5FF66432C531DAF242A33329124FC /* MGCMonthMiniCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E6A6BAF5C27D0490B7C390DFBF2DDE /* MGCMonthMiniCalendarView.m */; };
+		82D655AEC2549C5B6E2E7A29DFDDA6A0 /* MGCEventKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F902E03349BD708F1C4F521A67CA86 /* MGCEventKitSupport.m */; };
+		8422D019F8FC57090FD281B4DC5FC620 /* MGCInteractiveEventView.h in Headers */ = {isa = PBXBuildFile; fileRef = 259A9BDD4A440403C777C97AD1A46501 /* MGCInteractiveEventView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85326611A43A3DCF21FC49FFA752B564 /* MGCTimeRowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D90068805C2847473D69E4120192D2F0 /* MGCTimeRowsView.m */; };
+		8D300F50BAFB0738D7610A6B178AC889 /* MGCAlignedGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = CD42606A86DD5ACD7A8B2FD960ECAFDE /* MGCAlignedGeometry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FF48894D643630ED263D791B9509830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8E1CE4AC2EDF4B03CD931C2E172F03 /* Foundation.framework */; };
+		91E0A91CA7484967899FC45F4FCF2E74 /* MGCMonthPlannerViewDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1363E5CD71982E52F324D56E85254CA /* MGCMonthPlannerViewDayCell.m */; };
+		93059A25AB14C307F61377AA036D855C /* MGCMonthPlannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2853B5A57AA3D135AE6BA8F6A3FD7C16 /* MGCMonthPlannerViewController.m */; };
+		937DA07E60DB643D2EDC6C4A18EFB946 /* MGCCalendarHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0176505273DFFBEFA8FF18F87F0F414A /* MGCCalendarHeaderCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B2568235521359315C4CE1DDFD8B316 /* MGCYearCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C8D76A122E05B127419B99D59EC7C0 /* MGCYearCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB7EB4B21012B4F10E84F4E34111F4F /* MGCEventKitSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D024696EA3FAF5110C9C671971F6D31A /* MGCEventKitSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A26BAB26527A5EE269DAD8046AC18FE2 /* MGCEventCellLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E26C4C8430078D61D4BD7128E24DE073 /* MGCEventCellLayoutAttributes.m */; };
+		A6729A29A400148B3E667231DB3D34EC /* MGCInteractiveEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04282776EC95B510D6B1E83B47C0131 /* MGCInteractiveEventView.m */; };
+		ACF279BAAAD5EC972EC7ACB5519D0451 /* OSCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6232A02FCB1F8519CFC73FF9FC911D37 /* OSCache-dummy.m */; };
+		B030A641EA8381D4223038C5A24F9DE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D160D6B7A0AE369B31A314F79302BB1 /* UIKit.framework */; };
+		B1B5ED66183F733A5663C0C36A6528B9 /* MGCMonthMiniCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A05D70FE83BE766CA7FD6527BDDDA9 /* MGCMonthMiniCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59819CB9D1852E53815743BAF0ED083 /* MGCTimedEventsViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E117FF7198070C788AA83011BBDA952F /* MGCTimedEventsViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA955F093E15EC94331DFA7F7BC0FA7F /* MGCDayColumnCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D811183CD5DD93DA0720AD7DC4DB02D /* MGCDayColumnCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2436BDA3D6AB04C1E01D50326963067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8E1CE4AC2EDF4B03CD931C2E172F03 /* Foundation.framework */; };
+		C5CB10AED78C356333CB41FB2BC3E741 /* MGCEventsRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 300C6EBC47231ED7ACD6B17688F8AE4A /* MGCEventsRowView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7B30299654BF15355BC39CC8C5596F5 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0D1C69EED4F19FF4E12E3CEC08D37 /* OrderedDictionary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CAC8E9842A9226FC9B0ADF9831253691 /* MGCMonthPlannerViewDayCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D855CDF41D007E948AD7C02FA290AC43 /* MGCMonthPlannerViewDayCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE564C30A85BA8CBDE2B0C88105D542E /* MGCStandardEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE1663260478C81C60F2572A3D9864 /* MGCStandardEventView.m */; };
+		D6AC5F6DDA6AC65D08ABE0F9C6A104B9 /* MGCDateRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC105D119DBCC8D98FB255DD9C65A73 /* MGCDateRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D91AF3069649D64AC07243D27E231F /* OSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB54F28D7C4B95EE4B5755BC2397DBE /* OSCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DB03A40D4E92B25E16B2BF2ACE7A54AA /* MGCCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A97373A058267DF3CF2C3FACC74AF3 /* MGCCalendarHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBB500F88E59EF5ACFC5164084CF8BF0 /* MGCTimedEventsViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F88BEDBB62BDB11E818F64B8292D3E /* MGCTimedEventsViewLayout.m */; };
+		DBC6B358F7A21A3D87B2FB354503353B /* MGCReusableObjectQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = E4079F52E02FA0AA21A0771E18734B13 /* MGCReusableObjectQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD9C7450D0F83253F6C4F7DD7336A3B4 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5F33C6B5D60327F21A16A2FADD5B14 /* EventKit.framework */; };
+		E52BCDEDBC67AE1788E2E499A1AAC52F /* OSCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC2DF44E1090DE513436D66A3CCA36C /* OSCache.framework */; };
+		E5D47879EA8B7D1C97F0E1E18C4979E1 /* OSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5D73C43733D9120A028A86DAC285EF /* OSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A34F759341BC07C05DD5FCBE7A0CE3 /* Pods-CalendarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B392CA889CA17B417CF785E24B8690 /* Pods-CalendarDemo-dummy.m */; };
+		E9AD0CE94B70E1471CB3442D8F4AB3F0 /* NSCalendar+MGCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10758EB649FF7A28F4BC9532D14F9EA4 /* NSCalendar+MGCAdditions.m */; };
+		EB6474E24A23F12CBC186D6C0F5A6581 /* CalendarLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0C2F3313E304DA22E2F97037A7B26 /* CalendarLib-dummy.m */; };
+		EE99DB599BFD96B94A310C7434667183 /* OrderedDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A892CCECFA581CBEED0675705B647D9 /* OrderedDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFC992164494A0AEA2A1E8F8DD4D0317 /* MGCDayPlannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C98186D7914347E21D3EE25438B99C4E /* MGCDayPlannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F05D383A280BC3C39B6CE8541BE3D60C /* MGCDayPlannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F93E260E5A89A351538AFBD1111E244 /* MGCDayPlannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23AD539AF2E9B664D87C9EE8C6937D4 /* MGCDayPlannerEKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B59D0F30A741B7FA47909DAB1E73C2CA /* MGCDayPlannerEKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F37E6D4890967C64678D882B7F979FD3 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B87104808FEFF519AE683EB48EA30 /* EventKitUI.framework */; };
+		F5AE56537BE958C8BB28B749A45A5B9D /* MGCMonthPlannerBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3CA7D9340088D3AEDD8A314266AEF9 /* MGCMonthPlannerBackgroundView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F67F69CAB992BDDEAB6D875A75CABB90 /* MGCMonthPlannerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = A463DD6CF3B729778CBE3A49B48BA5B9 /* MGCMonthPlannerHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F96D0DC2DA36A105E8489D697F2F76ED /* MGCYearCalendarMonthHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A64187B75296842EDA5BDB89111BE1B /* MGCYearCalendarMonthHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9DBE135D01418A481D8F0026C79A819 /* MGCMonthPlannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BDBB9916122223D5631A0B111DD987 /* MGCMonthPlannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB350AE2B0B980D76903E220BD9645C7 /* OrderedDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E1E070AAF34FE00ACC9E48B1932AD8 /* OrderedDictionary-dummy.m */; };
+		FBBE8C29CE74A05A49171EFA08DBF54F /* MGCReusableObjectQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CF8ADA0D6F35A6D444DDBFE509979 /* MGCReusableObjectQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		116AD1AD124691B81F860EABA00AFA9D /* PBXContainerItemProxy */ = {
+		0998ABCFF9E71F9F42B0162CE4D262AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2673FB444CAD63D7872199869D12B242;
-			remoteInfo = "CalendarLib-CalendarLib";
-		};
-		34A195D9FB4A9B50F0F1B11ED70A896D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4C32B98A88C3F59ADE6A79B82E1867F;
-			remoteInfo = OrderedDictionary;
-		};
-		4C01AAE245FE633F3DEA17EE7B779B6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 954B3024145E89BE4F9E6E9D69C08294;
+			remoteGlobalIDString = 66C094471CDF36FEAC48ADBCA002987D;
 			remoteInfo = CalendarLib;
 		};
-		9380B5DACC543EBA205B2EE9EA115A29 /* PBXContainerItemProxy */ = {
+		A6B52C11825E54EEEA25A6764DE8317E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14730700B2D60DF9994CA196CE7ADE3C;
-			remoteInfo = OSCache;
-		};
-		983B1F146273EC8F5F8DF62B5F4778BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4C32B98A88C3F59ADE6A79B82E1867F;
+			remoteGlobalIDString = 389BBC0943707AEA7152D46E40748CE4;
 			remoteInfo = OrderedDictionary;
 		};
-		9DD2E24E413DC847B0033DF85707DD8B /* PBXContainerItemProxy */ = {
+		B6073C8B2888684DDDF4F0CF95F50765 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14730700B2D60DF9994CA196CE7ADE3C;
+			remoteGlobalIDString = CEDA3E856F500E0C60F1EF64F65AA8D2;
+			remoteInfo = OSCache;
+		};
+		B99CA6EDF12EA54B12108D22BF726489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389BBC0943707AEA7152D46E40748CE4;
+			remoteInfo = OrderedDictionary;
+		};
+		D02658053DCEBFF9436773DB27D14350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4AC74E49DCF55B046D693F5B3AAA248;
+			remoteInfo = "CalendarLib-CalendarLib";
+		};
+		FD8269B51B233C2B36D6CFE77E561F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA3E856F500E0C60F1EF64F65AA8D2;
 			remoteInfo = OSCache;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025D804BECA3FA4FB3437E02C746D838 /* MGCDayPlannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCDayPlannerView.m; sourceTree = "<group>"; };
-		035838A3E1D5E440BB9A3B651CB0622E /* MGCMonthPlannerEKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerEKViewController.h; sourceTree = "<group>"; };
-		03ED48CF8AC5E601600DC1AF567A32DB /* OSCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OSCache-prefix.pch"; sourceTree = "<group>"; };
-		058EE5E1389071701541D945B395BB8D /* ResourceBundle-CalendarLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CalendarLib-Info.plist"; sourceTree = "<group>"; };
-		0621FC5DD83F68E761116875B059412C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0658BFDB814DEB3ECCDA99ECA7521DD9 /* MGCInteractiveEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCInteractiveEventView.h; sourceTree = "<group>"; };
-		08E408886344FC31ED4A170A9DC261D8 /* Pods-CalendarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		0AC2F4E580C735F08DDD3E5212CA9F43 /* OSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EC117D89CD9649F60918F291C163452 /* MGCMonthPlannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerViewController.h; sourceTree = "<group>"; };
-		0F7F98D1CBD468157CC87E1534FD297D /* MGCMonthPlannerBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerBackgroundView.m; sourceTree = "<group>"; };
-		0F8285ABCC5BD108881B8D64CDE642EC /* NSAttributedString+MGCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MGCAdditions.m"; sourceTree = "<group>"; };
-		15CA1070A72D5B616A44BC999DC6575F /* MGCEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCEventView.m; sourceTree = "<group>"; };
-		184D1D2346ED6E14A32ADF6A8380122B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1B19161673C40175196589DF322D71AD /* CalendarLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarLib.xcconfig; sourceTree = "<group>"; };
-		1BD5A1B70C24D5E15C7902A3810AD71B /* MGCAllDayEventsViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCAllDayEventsViewLayout.m; sourceTree = "<group>"; };
-		1FE16E5343143115FF8D70DB3E614D7E /* MGCMonthPlannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerView.h; sourceTree = "<group>"; };
-		23A81DC455C8A11ABDE63E387401038A /* NSCalendar+MGCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+MGCAdditions.m"; sourceTree = "<group>"; };
-		25233512573BAC19936AB8B585997361 /* Pods-CalendarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalendarDemo-dummy.m"; sourceTree = "<group>"; };
-		272436DEBAF47D9A85D674C955A18A5E /* MGCInteractiveEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCInteractiveEventView.m; sourceTree = "<group>"; };
-		28F9BDA61B9C749A357770C19ACD3B8A /* OSCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OSCache.xcconfig; sourceTree = "<group>"; };
-		2BE2EA39F8FE5E48E7B9712F35754B74 /* OrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrderedDictionary.m; path = OrderedDictionary/OrderedDictionary.m; sourceTree = "<group>"; };
-		2C8709F47F1202384A6577453DF2E776 /* MGCDayPlannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCDayPlannerView.h; sourceTree = "<group>"; };
-		30DC81CEC32D28A3FA47B4D4057E07E1 /* OSCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OSCache-umbrella.h"; sourceTree = "<group>"; };
-		334F0D464F275262D14ACFCE6E1E9D68 /* OrderedDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedDictionary-umbrella.h"; sourceTree = "<group>"; };
-		34023C9D2F76E5CD4716B8BEBB929B92 /* OSCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OSCache.modulemap; sourceTree = "<group>"; };
-		361E02A32A0D91554059D7DA815376ED /* MGCMonthPlannerViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerViewLayout.h; sourceTree = "<group>"; };
-		36C709E8D3709828F4CDCC6F9E8B8F1F /* MGCAllDayEventsViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCAllDayEventsViewLayout.h; sourceTree = "<group>"; };
-		3A1AFEA81FE3EEF9BD457D565C2F56F7 /* MGCEventsRowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCEventsRowView.h; sourceTree = "<group>"; };
-		3A865200D6DA2CA2394B39060FF21453 /* OrderedDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OrderedDictionary.modulemap; sourceTree = "<group>"; };
-		3BA83E09087DAB7A93486006F5D66EC7 /* MGCDayColumnCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCDayColumnCell.h; sourceTree = "<group>"; };
-		3C99F8B5BDB75CF001C1E1E7A4121D4E /* MGCMonthMiniCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthMiniCalendarView.m; sourceTree = "<group>"; };
-		40A7ABA382B6C59BBAE48BE34A8A6549 /* Pods-CalendarDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalendarDemo-frameworks.sh"; sourceTree = "<group>"; };
-		40F8F6F011D72119E3CF3F18A91BCDAF /* MGCTimedEventsViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCTimedEventsViewLayout.m; sourceTree = "<group>"; };
-		43488965D4CAA1FDD110FDD5A4BF085E /* MGCDayPlannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCDayPlannerViewController.m; sourceTree = "<group>"; };
-		4585227A1FC9C596796A9E3CA5C4D56E /* MGCEventCellLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCEventCellLayoutAttributes.m; sourceTree = "<group>"; };
-		45D5F39D99FF80A3B5C95F53B2033BD9 /* Pods-CalendarDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CalendarDemo.modulemap"; sourceTree = "<group>"; };
-		474F46F9D3CD4C66494C6398945993BC /* CalendarLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		484752CE8E4D5723FC9E1A2BA7FE6DE7 /* MGCYearCalendarMonthCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCYearCalendarMonthCell.h; sourceTree = "<group>"; };
-		4A2FC2AF2409E900FA1C0219F88231A5 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
-		4BDB84AF839AEE748D67C6C78AC17D1A /* MGCMonthPlannerHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerHeaderView.h; sourceTree = "<group>"; };
-		4C2884C2460A111F124151B5DC9ED17D /* MGCMonthPlannerHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerHeaderView.m; sourceTree = "<group>"; };
-		4D826449F2F9E350884A3E4683683487 /* MGCDayColumnCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCDayColumnCell.m; sourceTree = "<group>"; };
-		4DEADC186D2B7AD760C9F3F892E3DC97 /* MGCMonthPlannerEKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerEKViewController.m; sourceTree = "<group>"; };
-		4E475E0EAF339997987B1A35247D49DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		4EA158124FBDD717544FED9263FBD303 /* MGCYearCalendarMonthHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCYearCalendarMonthHeaderView.h; sourceTree = "<group>"; };
-		4EA301017D15B64FEE4ACA4D179F98E6 /* MGCDateRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCDateRange.h; sourceTree = "<group>"; };
-		56C8D6DE7DAE5F35E652CCE40F50B208 /* MGCYearCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCYearCalendarView.m; sourceTree = "<group>"; };
-		5C25C368E644F9AF4FEFC41FC495C37D /* Pods-CalendarDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalendarDemo-resources.sh"; sourceTree = "<group>"; };
-		5D39AF81A0F8E48F554E38EC0E237D15 /* OrderedDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderedDictionary-dummy.m"; sourceTree = "<group>"; };
-		5DE721EBDAE294A03673CD1248B07ABC /* MGCDateRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCDateRange.m; sourceTree = "<group>"; };
-		5E45A50DA2DE157EEED14F329472CFCD /* MGCEventCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCEventCell.h; sourceTree = "<group>"; };
-		60DA0727BCAAE002FE5C811A4E13B6DA /* MGCEventCellLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCEventCellLayoutAttributes.h; sourceTree = "<group>"; };
-		639E8D3DEC720A9B52315E961AE4C21F /* MGCTimeRowsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCTimeRowsView.m; sourceTree = "<group>"; };
-		682F557D317E6B35EF72FB6490A1B17F /* MGCMonthPlannerWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerWeekView.h; sourceTree = "<group>"; };
-		68B7B88BE0B1447662D1EAB5590D5939 /* MGCYearCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCYearCalendarView.h; sourceTree = "<group>"; };
-		69ADBAC255FCEC8B18E2D22CEB022244 /* MGCDayPlannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCDayPlannerViewController.h; sourceTree = "<group>"; };
-		6E47DD2122985745BFECD98CDF38DADE /* MGCStandardEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCStandardEventView.m; sourceTree = "<group>"; };
-		707183B33831E2C9D2771125C823C584 /* OrderedDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedDictionary-prefix.pch"; sourceTree = "<group>"; };
-		71D6E0D174F4DE38CD29304BC2BA2282 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7247DD48FFD9C0A9A6592AFF50EAB445 /* MGCEventKitSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCEventKitSupport.m; sourceTree = "<group>"; };
-		74A37E3969A857D082820F3A92F53C87 /* CalendarLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CalendarLib.modulemap; sourceTree = "<group>"; };
-		77C49D72D796EFAA8308A1D0B15E8D25 /* MGCTimeRowsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCTimeRowsView.h; sourceTree = "<group>"; };
-		7860FA75B2828CFF3C94D193ED84E8F4 /* MGCDayPlannerEKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCDayPlannerEKViewController.m; sourceTree = "<group>"; };
-		7B109FCF8326A98A81D6FE07BA9A2CE3 /* OSCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSCache.m; path = OSCache/OSCache.m; sourceTree = "<group>"; };
-		7B32538B37024E5C7870BF811F48A57C /* MGCDayPlannerEKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCDayPlannerEKViewController.h; sourceTree = "<group>"; };
-		7D064917209003916B29AF2C1D58E6B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7F33A77B1C88FA226CA3F123445A1AB4 /* MGCMonthPlannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerViewController.m; sourceTree = "<group>"; };
-		84B7B1DA5EB4C3FA05D4BB2B2B9700FD /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
-		84EFFEA70CE3F29C1F727328CD11F594 /* OSCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSCache.h; path = OSCache/OSCache.h; sourceTree = "<group>"; };
-		8C18D98026C88F9B1A13FDC05F89DAD8 /* OSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CE9C5EF3DED23005E916FF98A2CA920 /* CalendarLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalendarLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		934AC6397F68D5F15DA64421BE08C1A4 /* MGCMonthPlannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerView.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		952C7E727EED0A50DA45041DE31137F8 /* MGCMonthPlannerBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerBackgroundView.h; sourceTree = "<group>"; };
-		96410F223170B0D6732DB4AB7632821F /* MGCReusableObjectQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCReusableObjectQueue.h; sourceTree = "<group>"; };
-		9AEA7D2CB8BE37041E07C43FD98BD53E /* MGCYearCalendarMonthCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCYearCalendarMonthCell.m; sourceTree = "<group>"; };
-		A021769F55E122F239757FDC93C0B8B7 /* MGCTimedEventsViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCTimedEventsViewLayout.h; sourceTree = "<group>"; };
-		A14FC8E1DA423047B4BD53F770157AA2 /* Constant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
-		A94A3BBABCB47178630385FFFB65190B /* CalendarLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarLib-prefix.pch"; sourceTree = "<group>"; };
-		ACC24998E5D2DA77072A37C508B33258 /* Pods_CalendarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF033CC11CFDD51637546D1E566D7555 /* CalendarLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarLib-umbrella.h"; sourceTree = "<group>"; };
-		B1870F870C6857E28D9CE5AF9B2A1098 /* CalendarLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarLib-dummy.m"; sourceTree = "<group>"; };
-		BC32A4691D31055C00AB19D7 /* MGCCalendarHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCCalendarHeaderCell.h; sourceTree = "<group>"; };
-		BC32A46A1D31055C00AB19D7 /* MGCCalendarHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCCalendarHeaderCell.m; sourceTree = "<group>"; };
-		BC32A46B1D31055C00AB19D7 /* MGCCalendarHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGCCalendarHeaderCell.xib; sourceTree = "<group>"; };
-		BC32A46C1D31055C00AB19D7 /* MGCCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCCalendarHeaderView.h; sourceTree = "<group>"; };
-		BC32A46D1D31055C00AB19D7 /* MGCCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCCalendarHeaderView.m; sourceTree = "<group>"; };
-		C0013B7C18CEFFE3F113A477AB1F1CF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C08DFD4AF9A6CEA2A502ACD58A728303 /* MGCEventsRowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCEventsRowView.m; sourceTree = "<group>"; };
-		CA6A2957B0D8809A9F6F3A173CAC5A75 /* OrderedDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderedDictionary.xcconfig; sourceTree = "<group>"; };
-		CA7F02164398FAF257C7384B0BD5A439 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB2C94953057A7A4E757F95D59B4E75B /* MGCYearCalendarMonthHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCYearCalendarMonthHeaderView.m; sourceTree = "<group>"; };
-		CBDCA5399E009C1D573DE21980363BB9 /* NSCalendar+MGCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+MGCAdditions.h"; sourceTree = "<group>"; };
-		CE13CF28836D0DBD67E1C1547545C67A /* MGCMonthMiniCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthMiniCalendarView.h; sourceTree = "<group>"; };
-		CF0F9DD62CFDC941842A2D67F57E9289 /* MGCEventKitSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCEventKitSupport.h; sourceTree = "<group>"; };
-		CF4B07529A2197D70A55B6D7B5BCECBD /* MGCAlignedGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCAlignedGeometry.m; sourceTree = "<group>"; };
-		D0B7ABACBC1482A67BB0B58535FB4D3A /* Pods-CalendarDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalendarDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2176FE612DD0596CE7C681E14BEEA3D /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
-		D312E569E43BEDEAB80ABB313B2DA37B /* OSCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OSCache-dummy.m"; sourceTree = "<group>"; };
-		D414A4CDE4116258F210D5FA18D0F06B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D51543B38B03130DB1C1328336A7210A /* NSAttributedString+MGCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MGCAdditions.h"; sourceTree = "<group>"; };
-		D5747BE9957E0A918225217BBE905449 /* MGCMonthPlannerViewDayCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerViewDayCell.m; sourceTree = "<group>"; };
-		D83C7B4870A7AC1B7D6EA9D800818168 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = fr.lproj; sourceTree = "<group>"; };
-		D87993AA397DD65C4DECA997776FE0B2 /* MGCAlignedGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCAlignedGeometry.h; sourceTree = "<group>"; };
-		D8A75E26ECCE9E325A71FE30987EDF49 /* MGCReusableObjectQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCReusableObjectQueue.m; sourceTree = "<group>"; };
-		DD8B59A20F855C881309ECC830CB2A24 /* MGCEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCEventView.h; sourceTree = "<group>"; };
-		E63EF56F13F78687828039FC20CB4645 /* OrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = OrderedDictionary/OrderedDictionary.h; sourceTree = "<group>"; };
-		E9CF035F29148878B13673869A38496E /* MGCStandardEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCStandardEventView.h; sourceTree = "<group>"; };
-		EA47F11125BF0BED9FC31F762B3C5EAA /* MGCMonthPlannerViewDayCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerViewDayCell.h; sourceTree = "<group>"; };
-		EC30C1BC622800CC72FA23CF9CB8AB40 /* MGCMonthPlannerWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerWeekView.m; sourceTree = "<group>"; };
-		EC3247F6F117E9550E559790EF12FE6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F46BB6ABD311E312D5CE6A1A3521632F /* Pods-CalendarDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalendarDemo-umbrella.h"; sourceTree = "<group>"; };
-		F70A86D4E3C34B4408539DE36D34D85E /* MGCMonthPlannerViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerViewLayout.m; sourceTree = "<group>"; };
-		F8642DF879250346F1FFEF4BD8D9BE06 /* MGCEventCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGCEventCell.m; sourceTree = "<group>"; };
-		FF01347CE9DC5BBCEC2F89DABE0D1763 /* Pods-CalendarDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF6D24E3BB10D55468C1356A066A7012 /* Pods-CalendarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		00CEE15A0DA5A1869F199CD9167638E2 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OrderedDictionary.framework; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0176505273DFFBEFA8FF18F87F0F414A /* MGCCalendarHeaderCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCCalendarHeaderCell.h; path = CalendarLib/MGCCalendarHeaderCell.h; sourceTree = "<group>"; };
+		033C509A964578D91B71D4A6D4EE86F3 /* MGCDayPlannerEKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDayPlannerEKViewController.m; path = CalendarLib/MGCDayPlannerEKViewController.m; sourceTree = "<group>"; };
+		03E1E070AAF34FE00ACC9E48B1932AD8 /* OrderedDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderedDictionary-dummy.m"; sourceTree = "<group>"; };
+		07592CB6186723A156775F34FF7C4E72 /* Constant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = CalendarLib/Constant.h; sourceTree = "<group>"; };
+		0762A0FDF2016F463DDC05611B910AB5 /* OrderedDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedDictionary-prefix.pch"; sourceTree = "<group>"; };
+		099AC1C9F022FC167A400EF4BC20E6F7 /* Pods-CalendarDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalendarDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B116A624FD72DD1B41C9144BCED7E73 /* MGCEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventView.h; path = CalendarLib/MGCEventView.h; sourceTree = "<group>"; };
+		0CC8862890B9E817DCF7D020624A0924 /* MGCCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCCalendarHeaderView.m; path = CalendarLib/MGCCalendarHeaderView.m; sourceTree = "<group>"; };
+		0E369AF60D515D5F8D97ECB713C7260B /* CalendarLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarLib.xcconfig; sourceTree = "<group>"; };
+		0FB54F28D7C4B95EE4B5755BC2397DBE /* OSCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSCache.m; path = OSCache/OSCache.m; sourceTree = "<group>"; };
+		10758EB649FF7A28F4BC9532D14F9EA4 /* NSCalendar+MGCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+MGCAdditions.m"; path = "CalendarLib/NSCalendar+MGCAdditions.m"; sourceTree = "<group>"; };
+		12B392CA889CA17B417CF785E24B8690 /* Pods-CalendarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalendarDemo-dummy.m"; sourceTree = "<group>"; };
+		171E7E86F81018A7AFA523AD426E1A08 /* OrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = OrderedDictionary/OrderedDictionary.h; sourceTree = "<group>"; };
+		1811EE523E969A31D5AE9B67453AA7DE /* MGCAlignedGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCAlignedGeometry.m; path = CalendarLib/MGCAlignedGeometry.m; sourceTree = "<group>"; };
+		18D0FA9413D00737F43BF429B971A675 /* OSCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OSCache-prefix.pch"; sourceTree = "<group>"; };
+		19641B46A4A19C8F435CD388C7A4EC1F /* MGCMonthPlannerViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerViewLayout.h; path = CalendarLib/MGCMonthPlannerViewLayout.h; sourceTree = "<group>"; };
+		196FA2A0BA9663D999B05C084EF9F12F /* OSCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OSCache-Info.plist"; sourceTree = "<group>"; };
+		1A64187B75296842EDA5BDB89111BE1B /* MGCYearCalendarMonthHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCYearCalendarMonthHeaderView.h; path = CalendarLib/MGCYearCalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		1BB7027A477F855EAE9B917B45A2C572 /* CalendarLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CalendarLib.bundle; path = "CalendarLib-CalendarLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB01AA772242CF1C0582803D90E3FDC /* CalendarLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalendarLib.modulemap; sourceTree = "<group>"; };
+		259A9BDD4A440403C777C97AD1A46501 /* MGCInteractiveEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCInteractiveEventView.h; path = CalendarLib/MGCInteractiveEventView.h; sourceTree = "<group>"; };
+		2853B5A57AA3D135AE6BA8F6A3FD7C16 /* MGCMonthPlannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerViewController.m; path = CalendarLib/MGCMonthPlannerViewController.m; sourceTree = "<group>"; };
+		28B33180837ED4A58E01E61F0FA8E083 /* MGCDayColumnCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDayColumnCell.m; path = CalendarLib/MGCDayColumnCell.m; sourceTree = "<group>"; };
+		28BDBB9916122223D5631A0B111DD987 /* MGCMonthPlannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerViewController.h; path = CalendarLib/MGCMonthPlannerViewController.h; sourceTree = "<group>"; };
+		2A892CCECFA581CBEED0675705B647D9 /* OrderedDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedDictionary-umbrella.h"; sourceTree = "<group>"; };
+		2B3D52DCA3EE72D1295FBFC05FEE7A34 /* MGCCalendarHeaderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MGCCalendarHeaderCell.xib; path = CalendarLib/MGCCalendarHeaderCell.xib; sourceTree = "<group>"; };
+		2B9CF8ADA0D6F35A6D444DDBFE509979 /* MGCReusableObjectQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCReusableObjectQueue.m; path = CalendarLib/MGCReusableObjectQueue.m; sourceTree = "<group>"; };
+		2C5D73C43733D9120A028A86DAC285EF /* OSCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSCache.h; path = OSCache/OSCache.h; sourceTree = "<group>"; };
+		2E334FECBB32F60B19B7227A6AA62F8E /* CalendarLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CalendarLib-Info.plist"; sourceTree = "<group>"; };
+		300C6EBC47231ED7ACD6B17688F8AE4A /* MGCEventsRowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventsRowView.h; path = CalendarLib/MGCEventsRowView.h; sourceTree = "<group>"; };
+		3246D6664F9E9F349D2604B8BD71DBD4 /* OrderedDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderedDictionary.xcconfig; sourceTree = "<group>"; };
+		334154F036063111C51B85DD9DC522B2 /* MGCEventCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventCell.h; path = CalendarLib/MGCEventCell.h; sourceTree = "<group>"; };
+		35A05D70FE83BE766CA7FD6527BDDDA9 /* MGCMonthMiniCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthMiniCalendarView.h; path = CalendarLib/MGCMonthMiniCalendarView.h; sourceTree = "<group>"; };
+		38E6A6BAF5C27D0490B7C390DFBF2DDE /* MGCMonthMiniCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthMiniCalendarView.m; path = CalendarLib/MGCMonthMiniCalendarView.m; sourceTree = "<group>"; };
+		39A88D4B41B6AF315A1FD154F116A656 /* MGCStandardEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCStandardEventView.h; path = CalendarLib/MGCStandardEventView.h; sourceTree = "<group>"; };
+		39C5E4A4F8E632A45E71A994D7D51502 /* MGCMonthPlannerViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerViewLayout.m; path = CalendarLib/MGCMonthPlannerViewLayout.m; sourceTree = "<group>"; };
+		3A8E1CE4AC2EDF4B03CD931C2E172F03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AC105D119DBCC8D98FB255DD9C65A73 /* MGCDateRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDateRange.h; path = CalendarLib/MGCDateRange.h; sourceTree = "<group>"; };
+		3B60B488D8BAD1360D198E85463F9944 /* Pods-CalendarDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		40C0D1C69EED4F19FF4E12E3CEC08D37 /* OrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrderedDictionary.m; path = OrderedDictionary/OrderedDictionary.m; sourceTree = "<group>"; };
+		40C8D76A122E05B127419B99D59EC7C0 /* MGCYearCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCYearCalendarView.h; path = CalendarLib/MGCYearCalendarView.h; sourceTree = "<group>"; };
+		4386CBD9FCABE5AB3DB018220091FBC5 /* Pods_CalendarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CalendarDemo.framework; path = "Pods-CalendarDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		448DB502B2B2A55BF56EB68BCFF00890 /* CalendarLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarLib-prefix.pch"; sourceTree = "<group>"; };
+		4767C429B8DE1439B188AEEB64F4C65A /* Pods-CalendarDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalendarDemo-frameworks.sh"; sourceTree = "<group>"; };
+		493DF75039C82357D78ADB732A58BFB8 /* CalendarLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CalendarLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D811183CD5DD93DA0720AD7DC4DB02D /* MGCDayColumnCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDayColumnCell.h; path = CalendarLib/MGCDayColumnCell.h; sourceTree = "<group>"; };
+		50DF51A7EFFD4036FD5B86DBA0255996 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = CalendarLib/en.lproj; sourceTree = "<group>"; };
+		52749ACA7987F770FBE5BA66C6E80BA1 /* MGCYearCalendarMonthCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCYearCalendarMonthCell.h; path = CalendarLib/MGCYearCalendarMonthCell.h; sourceTree = "<group>"; };
+		5AB55B9F8F26246BD38A0E027361D82C /* MGCYearCalendarMonthCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCYearCalendarMonthCell.m; path = CalendarLib/MGCYearCalendarMonthCell.m; sourceTree = "<group>"; };
+		5F93E260E5A89A351538AFBD1111E244 /* MGCDayPlannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDayPlannerViewController.h; path = CalendarLib/MGCDayPlannerViewController.h; sourceTree = "<group>"; };
+		6232A02FCB1F8519CFC73FF9FC911D37 /* OSCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OSCache-dummy.m"; sourceTree = "<group>"; };
+		66CE965F3D05D32BBC6FF5AD57ABC8C7 /* CalendarLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarLib.framework; path = CalendarLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678D85AB2511667697D06A29380B5A0B /* MGCAllDayEventsViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCAllDayEventsViewLayout.m; path = CalendarLib/MGCAllDayEventsViewLayout.m; sourceTree = "<group>"; };
+		68F26D8E894AABC4F244D4CE39F1AD89 /* OrderedDictionary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OrderedDictionary-Info.plist"; sourceTree = "<group>"; };
+		6C5BFC8286B338F48862A323EAB48512 /* Pods-CalendarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6D160D6B7A0AE369B31A314F79302BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6E3CA7D9340088D3AEDD8A314266AEF9 /* MGCMonthPlannerBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerBackgroundView.h; path = CalendarLib/MGCMonthPlannerBackgroundView.h; sourceTree = "<group>"; };
+		72B1BCC98A77FE0C0B850625859F8F90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7376B7CE136CD8A0A8A5882FBFE62498 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74BE5C8C7170ED989BAADE3F2529FA82 /* OSCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OSCache.modulemap; sourceTree = "<group>"; };
+		78CE10A1CB5B50D2FE55DD38DEF65331 /* MGCAllDayEventsViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCAllDayEventsViewLayout.h; path = CalendarLib/MGCAllDayEventsViewLayout.h; sourceTree = "<group>"; };
+		7AFB720F608B90BF91A4839C396259E5 /* MGCYearCalendarMonthHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCYearCalendarMonthHeaderView.m; path = CalendarLib/MGCYearCalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		7EE3815E1D2F22D845953623BBA75264 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8153FEA784E3396A83C03EEB33218017 /* MGCMonthPlannerWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerWeekView.h; path = CalendarLib/MGCMonthPlannerWeekView.h; sourceTree = "<group>"; };
+		823B61B1FDD7FE2B8E677816600F71D5 /* Pods-CalendarDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarDemo-Info.plist"; sourceTree = "<group>"; };
+		85ABF4AB9EFE9CC00CDCF62EB28FD927 /* NSAttributedString+MGCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+MGCAdditions.m"; path = "CalendarLib/NSAttributedString+MGCAdditions.m"; sourceTree = "<group>"; };
+		860291BF57252748B1860217AD4065F4 /* MGCEventsRowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventsRowView.m; path = CalendarLib/MGCEventsRowView.m; sourceTree = "<group>"; };
+		8BC2DF44E1090DE513436D66A3CCA36C /* OSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5F33C6B5D60327F21A16A2FADD5B14 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		913D94588F8394EA48C2E25415FD5C60 /* MGCMonthPlannerBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerBackgroundView.m; path = CalendarLib/MGCMonthPlannerBackgroundView.m; sourceTree = "<group>"; };
+		925877CB2ECC5F364BDF0ACDE90B83CB /* Pods-CalendarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9617EC7F10BF73E7CE0B34EBD55A3CEF /* ResourceBundle-CalendarLib-CalendarLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CalendarLib-CalendarLib-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3F88BEDBB62BDB11E818F64B8292D3E /* MGCTimedEventsViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCTimedEventsViewLayout.m; path = CalendarLib/MGCTimedEventsViewLayout.m; sourceTree = "<group>"; };
+		A463DD6CF3B729778CBE3A49B48BA5B9 /* MGCMonthPlannerHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerHeaderView.h; path = CalendarLib/MGCMonthPlannerHeaderView.h; sourceTree = "<group>"; };
+		AB33DBECD28C6DBEC0DA4951AA1BC25B /* MGCMonthPlannerWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerWeekView.m; path = CalendarLib/MGCMonthPlannerWeekView.m; sourceTree = "<group>"; };
+		AE42188039958E7E6D73332EEDA6F675 /* MGCCalendarHeaderCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCCalendarHeaderCell.m; path = CalendarLib/MGCCalendarHeaderCell.m; sourceTree = "<group>"; };
+		AFEEC942EEB5DBC9FE2E51CF8F9138DE /* MGCDayPlannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDayPlannerViewController.m; path = CalendarLib/MGCDayPlannerViewController.m; sourceTree = "<group>"; };
+		B04F9D9E38DC74125C982B588412B140 /* NSAttributedString+MGCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+MGCAdditions.h"; path = "CalendarLib/NSAttributedString+MGCAdditions.h"; sourceTree = "<group>"; };
+		B3E4E80367C6462DE3D115C13EB0B65A /* OSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OSCache.framework; path = OSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59D0F30A741B7FA47909DAB1E73C2CA /* MGCDayPlannerEKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDayPlannerEKViewController.h; path = CalendarLib/MGCDayPlannerEKViewController.h; sourceTree = "<group>"; };
+		B7CA1160E8C85FA084284FE50CEDAC2A /* Pods-CalendarDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalendarDemo-umbrella.h"; sourceTree = "<group>"; };
+		BA9FD99E80E7D5EAD4C6A9068B8A901F /* MGCEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventView.m; path = CalendarLib/MGCEventView.m; sourceTree = "<group>"; };
+		BB619158241F1CD5141BC9B254160ED9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BBC44ADAEE4E4450293A07522D115167 /* MGCDateRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDateRange.m; path = CalendarLib/MGCDateRange.m; sourceTree = "<group>"; };
+		BBF13463F3463A8D800B27598C048470 /* Pods-CalendarDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CalendarDemo.modulemap"; sourceTree = "<group>"; };
+		BE3ABD74DF1850577BF0CA64306673C1 /* MGCYearCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCYearCalendarView.m; path = CalendarLib/MGCYearCalendarView.m; sourceTree = "<group>"; };
+		BF362D3E5C50EDE264284E05C9C016F2 /* MGCMonthPlannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerView.h; path = CalendarLib/MGCMonthPlannerView.h; sourceTree = "<group>"; };
+		C0CE1663260478C81C60F2572A3D9864 /* MGCStandardEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCStandardEventView.m; path = CalendarLib/MGCStandardEventView.m; sourceTree = "<group>"; };
+		C4A91C06FD427817B1D091A439072E92 /* MGCDayPlannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDayPlannerView.m; path = CalendarLib/MGCDayPlannerView.m; sourceTree = "<group>"; };
+		C7E8282D99BD93FA15A18E59260BDFAF /* OrderedDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrderedDictionary.modulemap; sourceTree = "<group>"; };
+		C98186D7914347E21D3EE25438B99C4E /* MGCDayPlannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDayPlannerView.h; path = CalendarLib/MGCDayPlannerView.h; sourceTree = "<group>"; };
+		C9ACD5C928A4B27D614BF3515FB4C933 /* MGCMonthPlannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerView.m; path = CalendarLib/MGCMonthPlannerView.m; sourceTree = "<group>"; };
+		CD42606A86DD5ACD7A8B2FD960ECAFDE /* MGCAlignedGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCAlignedGeometry.h; path = CalendarLib/MGCAlignedGeometry.h; sourceTree = "<group>"; };
+		CDFF6FA0788DBA6BEE4870AF738D8B88 /* MGCEventCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventCell.m; path = CalendarLib/MGCEventCell.m; sourceTree = "<group>"; };
+		CF3630406AF115AA6632CEDD7F65D087 /* MGCTimeRowsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCTimeRowsView.h; path = CalendarLib/MGCTimeRowsView.h; sourceTree = "<group>"; };
+		CFC552B3B78EF99878673A29404EB28F /* OSCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OSCache.xcconfig; sourceTree = "<group>"; };
+		D024696EA3FAF5110C9C671971F6D31A /* MGCEventKitSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventKitSupport.h; path = CalendarLib/MGCEventKitSupport.h; sourceTree = "<group>"; };
+		D19B87104808FEFF519AE683EB48EA30 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
+		D2F902E03349BD708F1C4F521A67CA86 /* MGCEventKitSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventKitSupport.m; path = CalendarLib/MGCEventKitSupport.m; sourceTree = "<group>"; };
+		D8449064A4F402A80952F2CD78F12B35 /* OSCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OSCache-umbrella.h"; sourceTree = "<group>"; };
+		D855CDF41D007E948AD7C02FA290AC43 /* MGCMonthPlannerViewDayCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerViewDayCell.h; path = CalendarLib/MGCMonthPlannerViewDayCell.h; sourceTree = "<group>"; };
+		D8A97373A058267DF3CF2C3FACC74AF3 /* MGCCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCCalendarHeaderView.h; path = CalendarLib/MGCCalendarHeaderView.h; sourceTree = "<group>"; };
+		D90068805C2847473D69E4120192D2F0 /* MGCTimeRowsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCTimeRowsView.m; path = CalendarLib/MGCTimeRowsView.m; sourceTree = "<group>"; };
+		D9CA28CE925F139F7193A3E47EB1855D /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = CalendarLib/fr.lproj; sourceTree = "<group>"; };
+		DA1BC56D027936405B7F36C4B9FA345B /* CalendarLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarLib-umbrella.h"; sourceTree = "<group>"; };
+		E04282776EC95B510D6B1E83B47C0131 /* MGCInteractiveEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCInteractiveEventView.m; path = CalendarLib/MGCInteractiveEventView.m; sourceTree = "<group>"; };
+		E117FF7198070C788AA83011BBDA952F /* MGCTimedEventsViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCTimedEventsViewLayout.h; path = CalendarLib/MGCTimedEventsViewLayout.h; sourceTree = "<group>"; };
+		E1363E5CD71982E52F324D56E85254CA /* MGCMonthPlannerViewDayCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerViewDayCell.m; path = CalendarLib/MGCMonthPlannerViewDayCell.m; sourceTree = "<group>"; };
+		E26C4C8430078D61D4BD7128E24DE073 /* MGCEventCellLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventCellLayoutAttributes.m; path = CalendarLib/MGCEventCellLayoutAttributes.m; sourceTree = "<group>"; };
+		E4079F52E02FA0AA21A0771E18734B13 /* MGCReusableObjectQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCReusableObjectQueue.h; path = CalendarLib/MGCReusableObjectQueue.h; sourceTree = "<group>"; };
+		E754B64C00DAE7E4A9763A9F2218B8E7 /* NSCalendar+MGCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+MGCAdditions.h"; path = "CalendarLib/NSCalendar+MGCAdditions.h"; sourceTree = "<group>"; };
+		ECC0C2F3313E304DA22E2F97037A7B26 /* CalendarLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarLib-dummy.m"; sourceTree = "<group>"; };
+		F1876F2ABCD50340D642418D9C013430 /* MGCMonthPlannerHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerHeaderView.m; path = CalendarLib/MGCMonthPlannerHeaderView.m; sourceTree = "<group>"; };
+		F1907E87ADFFBE739B3977B8C201FB81 /* MGCMonthPlannerEKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerEKViewController.h; path = CalendarLib/MGCMonthPlannerEKViewController.h; sourceTree = "<group>"; };
+		F470F47CD387A26A9A0BD6BF738722A9 /* MGCMonthPlannerEKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerEKViewController.m; path = CalendarLib/MGCMonthPlannerEKViewController.m; sourceTree = "<group>"; };
+		FACB5ECE250312CBE9E9F65D51B51DC7 /* MGCEventCellLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventCellLayoutAttributes.h; path = CalendarLib/MGCEventCellLayoutAttributes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0275B4DC678C28992E1187C30A9DDF15 /* Frameworks */ = {
+		5EC609972F2F4713ADF2A832DDDC7AD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4865DF5B9828CC1A6D9134053729AD4C /* Foundation.framework in Frameworks */,
+				2E7E16775471966E9E0CA33B1C4D061A /* CoreGraphics.framework in Frameworks */,
+				DD9C7450D0F83253F6C4F7DD7336A3B4 /* EventKit.framework in Frameworks */,
+				F37E6D4890967C64678D882B7F979FD3 /* EventKitUI.framework in Frameworks */,
+				C2436BDA3D6AB04C1E01D50326963067 /* Foundation.framework in Frameworks */,
+				12F1A4489B0890E48014C9796B7D4C77 /* OrderedDictionary.framework in Frameworks */,
+				E52BCDEDBC67AE1788E2E499A1AAC52F /* OSCache.framework in Frameworks */,
+				B030A641EA8381D4223038C5A24F9DE7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EC64EB638F6BCDC5F10055A15FFF2D7 /* Frameworks */ = {
+		886187106D116510D11D14218ACBB0EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C1CC6C04D875D926256FFAB09BA85EC /* CoreGraphics.framework in Frameworks */,
-				C172318723A82A556756CE7A10ED572B /* EventKit.framework in Frameworks */,
-				AEF45D844795868F471C231D4DBADA86 /* EventKitUI.framework in Frameworks */,
-				75EA39995111C0925C1F8793C0F19255 /* Foundation.framework in Frameworks */,
-				DEF1FBD0689397BC6AB8BDA6BB8AB78A /* OrderedDictionary.framework in Frameworks */,
-				DF0507A59387E5CBE881FD0E56A6EFCC /* OSCache.framework in Frameworks */,
-				12E7AF496E5CBE616581F40EA8CC55FF /* UIKit.framework in Frameworks */,
+				550659C466F4DE236D09765ADBCA2105 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CBB24793DE31904DE12AAE27652CDAF /* Frameworks */ = {
+		8D5341C5227C93881BCBD0206EF62820 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7B77774073428F0EDBA7F9B27B498D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDD37FE54B9E2C86B5DFECBEA28EFF5D /* Frameworks */ = {
+		E781BFC6EFF3770084EE5D5219EB8892 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE4FB461D2A7FEC45F3F58EB90D2906 /* Foundation.framework in Frameworks */,
+				1D66BE4E8493292BE02AC9E7AC492649 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F843E9A69A061049F1525728BB17C353 /* Frameworks */ = {
+		EEE8C96B047842E7AF4413891A29EDE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF48894D643630ED263D791B9509830 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D3FC36B1AD1B91A19EB93398CB883B7 /* Products */ = {
+		03D9ACE8FE634B8B4B36F46AE54A2DC7 /* CalendarLib */ = {
 			isa = PBXGroup;
 			children = (
-				474F46F9D3CD4C66494C6398945993BC /* CalendarLib.bundle */,
-				8CE9C5EF3DED23005E916FF98A2CA920 /* CalendarLib.framework */,
-				CA7F02164398FAF257C7384B0BD5A439 /* OrderedDictionary.framework */,
-				8C18D98026C88F9B1A13FDC05F89DAD8 /* OSCache.framework */,
-				ACC24998E5D2DA77072A37C508B33258 /* Pods_CalendarDemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0F1C12A4F9C13DDF666E42720AFF7CA3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				29E9E70A4DEC71A3E3E58D1BAE3AA322 /* CalendarLib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		17B7D64812854ACD156C75C946043AEB /* OSCache */ = {
-			isa = PBXGroup;
-			children = (
-				84EFFEA70CE3F29C1F727328CD11F594 /* OSCache.h */,
-				7B109FCF8326A98A81D6FE07BA9A2CE3 /* OSCache.m */,
-				653A87F57774EEDCAB59C3835F515F39 /* Support Files */,
-			);
-			path = OSCache;
-			sourceTree = "<group>";
-		};
-		207A1972E30A93AB18D345EC64D59A66 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D414A4CDE4116258F210D5FA18D0F06B /* Info.plist */,
-				3A865200D6DA2CA2394B39060FF21453 /* OrderedDictionary.modulemap */,
-				CA6A2957B0D8809A9F6F3A173CAC5A75 /* OrderedDictionary.xcconfig */,
-				5D39AF81A0F8E48F554E38EC0E237D15 /* OrderedDictionary-dummy.m */,
-				707183B33831E2C9D2771125C823C584 /* OrderedDictionary-prefix.pch */,
-				334F0D464F275262D14ACFCE6E1E9D68 /* OrderedDictionary-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OrderedDictionary";
-			sourceTree = "<group>";
-		};
-		29E9E70A4DEC71A3E3E58D1BAE3AA322 /* CalendarLib */ = {
-			isa = PBXGroup;
-			children = (
-				D2176FE612DD0596CE7C681E14BEEA3D /* en.lproj */,
-				D83C7B4870A7AC1B7D6EA9D800818168 /* fr.lproj */,
-			);
-			path = CalendarLib;
-			sourceTree = "<group>";
-		};
-		361B1A664A1700E5D552757703BC07ED /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E66744A6542A6AA38184187625166DE4 /* CalendarLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4095B5A90CF1C4DF2350A3C3C93F7977 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				71D6E0D174F4DE38CD29304BC2BA2282 /* OrderedDictionary.framework */,
-				0AC2F4E580C735F08DDD3E5212CA9F43 /* OSCache.framework */,
-				A96F6A9975A6F24AB416D87368E072C4 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		414BE1B86DC3EBB8BB2F9607F5417355 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DA8C3C0C9761CCF4865068E83CD0336F /* OrderedDictionary */,
-				17B7D64812854ACD156C75C946043AEB /* OSCache */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		55A46B5E828C65C9EDA4EFCB57AC5BD7 /* CalendarLib */ = {
-			isa = PBXGroup;
-			children = (
-				BC32A4691D31055C00AB19D7 /* MGCCalendarHeaderCell.h */,
-				BC32A46A1D31055C00AB19D7 /* MGCCalendarHeaderCell.m */,
-				BC32A46B1D31055C00AB19D7 /* MGCCalendarHeaderCell.xib */,
-				BC32A46C1D31055C00AB19D7 /* MGCCalendarHeaderView.h */,
-				BC32A46D1D31055C00AB19D7 /* MGCCalendarHeaderView.m */,
-				A14FC8E1DA423047B4BD53F770157AA2 /* Constant.h */,
-				D87993AA397DD65C4DECA997776FE0B2 /* MGCAlignedGeometry.h */,
-				CF4B07529A2197D70A55B6D7B5BCECBD /* MGCAlignedGeometry.m */,
-				36C709E8D3709828F4CDCC6F9E8B8F1F /* MGCAllDayEventsViewLayout.h */,
-				1BD5A1B70C24D5E15C7902A3810AD71B /* MGCAllDayEventsViewLayout.m */,
-				4EA301017D15B64FEE4ACA4D179F98E6 /* MGCDateRange.h */,
-				5DE721EBDAE294A03673CD1248B07ABC /* MGCDateRange.m */,
-				3BA83E09087DAB7A93486006F5D66EC7 /* MGCDayColumnCell.h */,
-				4D826449F2F9E350884A3E4683683487 /* MGCDayColumnCell.m */,
-				7B32538B37024E5C7870BF811F48A57C /* MGCDayPlannerEKViewController.h */,
-				7860FA75B2828CFF3C94D193ED84E8F4 /* MGCDayPlannerEKViewController.m */,
-				2C8709F47F1202384A6577453DF2E776 /* MGCDayPlannerView.h */,
-				025D804BECA3FA4FB3437E02C746D838 /* MGCDayPlannerView.m */,
-				69ADBAC255FCEC8B18E2D22CEB022244 /* MGCDayPlannerViewController.h */,
-				43488965D4CAA1FDD110FDD5A4BF085E /* MGCDayPlannerViewController.m */,
-				5E45A50DA2DE157EEED14F329472CFCD /* MGCEventCell.h */,
-				F8642DF879250346F1FFEF4BD8D9BE06 /* MGCEventCell.m */,
-				60DA0727BCAAE002FE5C811A4E13B6DA /* MGCEventCellLayoutAttributes.h */,
-				4585227A1FC9C596796A9E3CA5C4D56E /* MGCEventCellLayoutAttributes.m */,
-				CF0F9DD62CFDC941842A2D67F57E9289 /* MGCEventKitSupport.h */,
-				7247DD48FFD9C0A9A6592AFF50EAB445 /* MGCEventKitSupport.m */,
-				3A1AFEA81FE3EEF9BD457D565C2F56F7 /* MGCEventsRowView.h */,
-				C08DFD4AF9A6CEA2A502ACD58A728303 /* MGCEventsRowView.m */,
-				DD8B59A20F855C881309ECC830CB2A24 /* MGCEventView.h */,
-				15CA1070A72D5B616A44BC999DC6575F /* MGCEventView.m */,
-				0658BFDB814DEB3ECCDA99ECA7521DD9 /* MGCInteractiveEventView.h */,
-				272436DEBAF47D9A85D674C955A18A5E /* MGCInteractiveEventView.m */,
-				CE13CF28836D0DBD67E1C1547545C67A /* MGCMonthMiniCalendarView.h */,
-				3C99F8B5BDB75CF001C1E1E7A4121D4E /* MGCMonthMiniCalendarView.m */,
-				952C7E727EED0A50DA45041DE31137F8 /* MGCMonthPlannerBackgroundView.h */,
-				0F7F98D1CBD468157CC87E1534FD297D /* MGCMonthPlannerBackgroundView.m */,
-				035838A3E1D5E440BB9A3B651CB0622E /* MGCMonthPlannerEKViewController.h */,
-				4DEADC186D2B7AD760C9F3F892E3DC97 /* MGCMonthPlannerEKViewController.m */,
-				4BDB84AF839AEE748D67C6C78AC17D1A /* MGCMonthPlannerHeaderView.h */,
-				4C2884C2460A111F124151B5DC9ED17D /* MGCMonthPlannerHeaderView.m */,
-				1FE16E5343143115FF8D70DB3E614D7E /* MGCMonthPlannerView.h */,
-				934AC6397F68D5F15DA64421BE08C1A4 /* MGCMonthPlannerView.m */,
-				0EC117D89CD9649F60918F291C163452 /* MGCMonthPlannerViewController.h */,
-				7F33A77B1C88FA226CA3F123445A1AB4 /* MGCMonthPlannerViewController.m */,
-				EA47F11125BF0BED9FC31F762B3C5EAA /* MGCMonthPlannerViewDayCell.h */,
-				D5747BE9957E0A918225217BBE905449 /* MGCMonthPlannerViewDayCell.m */,
-				361E02A32A0D91554059D7DA815376ED /* MGCMonthPlannerViewLayout.h */,
-				F70A86D4E3C34B4408539DE36D34D85E /* MGCMonthPlannerViewLayout.m */,
-				682F557D317E6B35EF72FB6490A1B17F /* MGCMonthPlannerWeekView.h */,
-				EC30C1BC622800CC72FA23CF9CB8AB40 /* MGCMonthPlannerWeekView.m */,
-				96410F223170B0D6732DB4AB7632821F /* MGCReusableObjectQueue.h */,
-				D8A75E26ECCE9E325A71FE30987EDF49 /* MGCReusableObjectQueue.m */,
-				E9CF035F29148878B13673869A38496E /* MGCStandardEventView.h */,
-				6E47DD2122985745BFECD98CDF38DADE /* MGCStandardEventView.m */,
-				A021769F55E122F239757FDC93C0B8B7 /* MGCTimedEventsViewLayout.h */,
-				40F8F6F011D72119E3CF3F18A91BCDAF /* MGCTimedEventsViewLayout.m */,
-				77C49D72D796EFAA8308A1D0B15E8D25 /* MGCTimeRowsView.h */,
-				639E8D3DEC720A9B52315E961AE4C21F /* MGCTimeRowsView.m */,
-				484752CE8E4D5723FC9E1A2BA7FE6DE7 /* MGCYearCalendarMonthCell.h */,
-				9AEA7D2CB8BE37041E07C43FD98BD53E /* MGCYearCalendarMonthCell.m */,
-				4EA158124FBDD717544FED9263FBD303 /* MGCYearCalendarMonthHeaderView.h */,
-				CB2C94953057A7A4E757F95D59B4E75B /* MGCYearCalendarMonthHeaderView.m */,
-				68B7B88BE0B1447662D1EAB5590D5939 /* MGCYearCalendarView.h */,
-				56C8D6DE7DAE5F35E652CCE40F50B208 /* MGCYearCalendarView.m */,
-				D51543B38B03130DB1C1328336A7210A /* NSAttributedString+MGCAdditions.h */,
-				0F8285ABCC5BD108881B8D64CDE642EC /* NSAttributedString+MGCAdditions.m */,
-				CBDCA5399E009C1D573DE21980363BB9 /* NSCalendar+MGCAdditions.h */,
-				23A81DC455C8A11ABDE63E387401038A /* NSCalendar+MGCAdditions.m */,
-			);
-			path = CalendarLib;
-			sourceTree = "<group>";
-		};
-		59A31FFB10E599FA4F09931A500917D1 /* Pods-CalendarDemo */ = {
-			isa = PBXGroup;
-			children = (
-				EC3247F6F117E9550E559790EF12FE6C /* Info.plist */,
-				45D5F39D99FF80A3B5C95F53B2033BD9 /* Pods-CalendarDemo.modulemap */,
-				D0B7ABACBC1482A67BB0B58535FB4D3A /* Pods-CalendarDemo-acknowledgements.markdown */,
-				FF01347CE9DC5BBCEC2F89DABE0D1763 /* Pods-CalendarDemo-acknowledgements.plist */,
-				25233512573BAC19936AB8B585997361 /* Pods-CalendarDemo-dummy.m */,
-				40A7ABA382B6C59BBAE48BE34A8A6549 /* Pods-CalendarDemo-frameworks.sh */,
-				5C25C368E644F9AF4FEFC41FC495C37D /* Pods-CalendarDemo-resources.sh */,
-				F46BB6ABD311E312D5CE6A1A3521632F /* Pods-CalendarDemo-umbrella.h */,
-				08E408886344FC31ED4A170A9DC261D8 /* Pods-CalendarDemo.debug.xcconfig */,
-				FF6D24E3BB10D55468C1356A066A7012 /* Pods-CalendarDemo.release.xcconfig */,
-			);
-			name = "Pods-CalendarDemo";
-			path = "Target Support Files/Pods-CalendarDemo";
-			sourceTree = "<group>";
-		};
-		653A87F57774EEDCAB59C3835F515F39 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0621FC5DD83F68E761116875B059412C /* Info.plist */,
-				34023C9D2F76E5CD4716B8BEBB929B92 /* OSCache.modulemap */,
-				28F9BDA61B9C749A357770C19ACD3B8A /* OSCache.xcconfig */,
-				D312E569E43BEDEAB80ABB313B2DA37B /* OSCache-dummy.m */,
-				03ED48CF8AC5E601600DC1AF567A32DB /* OSCache-prefix.pch */,
-				30DC81CEC32D28A3FA47B4D4057E07E1 /* OSCache-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OSCache";
-			sourceTree = "<group>";
-		};
-		73BC7DBA543BB6F4C379834E32AA9FEF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				59A31FFB10E599FA4F09931A500917D1 /* Pods-CalendarDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				361B1A664A1700E5D552757703BC07ED /* Development Pods */,
-				4095B5A90CF1C4DF2350A3C3C93F7977 /* Frameworks */,
-				414BE1B86DC3EBB8BB2F9607F5417355 /* Pods */,
-				0D3FC36B1AD1B91A19EB93398CB883B7 /* Products */,
-				73BC7DBA543BB6F4C379834E32AA9FEF /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A96F6A9975A6F24AB416D87368E072C4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4E475E0EAF339997987B1A35247D49DE /* CoreGraphics.framework */,
-				84B7B1DA5EB4C3FA05D4BB2B2B9700FD /* EventKit.framework */,
-				4A2FC2AF2409E900FA1C0219F88231A5 /* EventKitUI.framework */,
-				7D064917209003916B29AF2C1D58E6B7 /* Foundation.framework */,
-				184D1D2346ED6E14A32ADF6A8380122B /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		BDB41EAFCA659890F4F874E8643FED1F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				74A37E3969A857D082820F3A92F53C87 /* CalendarLib.modulemap */,
-				1B19161673C40175196589DF322D71AD /* CalendarLib.xcconfig */,
-				B1870F870C6857E28D9CE5AF9B2A1098 /* CalendarLib-dummy.m */,
-				A94A3BBABCB47178630385FFFB65190B /* CalendarLib-prefix.pch */,
-				AF033CC11CFDD51637546D1E566D7555 /* CalendarLib-umbrella.h */,
-				C0013B7C18CEFFE3F113A477AB1F1CF5 /* Info.plist */,
-				058EE5E1389071701541D945B395BB8D /* ResourceBundle-CalendarLib-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/CalendarLib";
-			sourceTree = "<group>";
-		};
-		DA8C3C0C9761CCF4865068E83CD0336F /* OrderedDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				E63EF56F13F78687828039FC20CB4645 /* OrderedDictionary.h */,
-				2BE2EA39F8FE5E48E7B9712F35754B74 /* OrderedDictionary.m */,
-				207A1972E30A93AB18D345EC64D59A66 /* Support Files */,
-			);
-			path = OrderedDictionary;
-			sourceTree = "<group>";
-		};
-		E66744A6542A6AA38184187625166DE4 /* CalendarLib */ = {
-			isa = PBXGroup;
-			children = (
-				55A46B5E828C65C9EDA4EFCB57AC5BD7 /* CalendarLib */,
-				0F1C12A4F9C13DDF666E42720AFF7CA3 /* Resources */,
-				BDB41EAFCA659890F4F874E8643FED1F /* Support Files */,
+				07592CB6186723A156775F34FF7C4E72 /* Constant.h */,
+				CD42606A86DD5ACD7A8B2FD960ECAFDE /* MGCAlignedGeometry.h */,
+				1811EE523E969A31D5AE9B67453AA7DE /* MGCAlignedGeometry.m */,
+				78CE10A1CB5B50D2FE55DD38DEF65331 /* MGCAllDayEventsViewLayout.h */,
+				678D85AB2511667697D06A29380B5A0B /* MGCAllDayEventsViewLayout.m */,
+				0176505273DFFBEFA8FF18F87F0F414A /* MGCCalendarHeaderCell.h */,
+				AE42188039958E7E6D73332EEDA6F675 /* MGCCalendarHeaderCell.m */,
+				D8A97373A058267DF3CF2C3FACC74AF3 /* MGCCalendarHeaderView.h */,
+				0CC8862890B9E817DCF7D020624A0924 /* MGCCalendarHeaderView.m */,
+				3AC105D119DBCC8D98FB255DD9C65A73 /* MGCDateRange.h */,
+				BBC44ADAEE4E4450293A07522D115167 /* MGCDateRange.m */,
+				4D811183CD5DD93DA0720AD7DC4DB02D /* MGCDayColumnCell.h */,
+				28B33180837ED4A58E01E61F0FA8E083 /* MGCDayColumnCell.m */,
+				B59D0F30A741B7FA47909DAB1E73C2CA /* MGCDayPlannerEKViewController.h */,
+				033C509A964578D91B71D4A6D4EE86F3 /* MGCDayPlannerEKViewController.m */,
+				C98186D7914347E21D3EE25438B99C4E /* MGCDayPlannerView.h */,
+				C4A91C06FD427817B1D091A439072E92 /* MGCDayPlannerView.m */,
+				5F93E260E5A89A351538AFBD1111E244 /* MGCDayPlannerViewController.h */,
+				AFEEC942EEB5DBC9FE2E51CF8F9138DE /* MGCDayPlannerViewController.m */,
+				334154F036063111C51B85DD9DC522B2 /* MGCEventCell.h */,
+				CDFF6FA0788DBA6BEE4870AF738D8B88 /* MGCEventCell.m */,
+				FACB5ECE250312CBE9E9F65D51B51DC7 /* MGCEventCellLayoutAttributes.h */,
+				E26C4C8430078D61D4BD7128E24DE073 /* MGCEventCellLayoutAttributes.m */,
+				D024696EA3FAF5110C9C671971F6D31A /* MGCEventKitSupport.h */,
+				D2F902E03349BD708F1C4F521A67CA86 /* MGCEventKitSupport.m */,
+				300C6EBC47231ED7ACD6B17688F8AE4A /* MGCEventsRowView.h */,
+				860291BF57252748B1860217AD4065F4 /* MGCEventsRowView.m */,
+				0B116A624FD72DD1B41C9144BCED7E73 /* MGCEventView.h */,
+				BA9FD99E80E7D5EAD4C6A9068B8A901F /* MGCEventView.m */,
+				259A9BDD4A440403C777C97AD1A46501 /* MGCInteractiveEventView.h */,
+				E04282776EC95B510D6B1E83B47C0131 /* MGCInteractiveEventView.m */,
+				35A05D70FE83BE766CA7FD6527BDDDA9 /* MGCMonthMiniCalendarView.h */,
+				38E6A6BAF5C27D0490B7C390DFBF2DDE /* MGCMonthMiniCalendarView.m */,
+				6E3CA7D9340088D3AEDD8A314266AEF9 /* MGCMonthPlannerBackgroundView.h */,
+				913D94588F8394EA48C2E25415FD5C60 /* MGCMonthPlannerBackgroundView.m */,
+				F1907E87ADFFBE739B3977B8C201FB81 /* MGCMonthPlannerEKViewController.h */,
+				F470F47CD387A26A9A0BD6BF738722A9 /* MGCMonthPlannerEKViewController.m */,
+				A463DD6CF3B729778CBE3A49B48BA5B9 /* MGCMonthPlannerHeaderView.h */,
+				F1876F2ABCD50340D642418D9C013430 /* MGCMonthPlannerHeaderView.m */,
+				BF362D3E5C50EDE264284E05C9C016F2 /* MGCMonthPlannerView.h */,
+				C9ACD5C928A4B27D614BF3515FB4C933 /* MGCMonthPlannerView.m */,
+				28BDBB9916122223D5631A0B111DD987 /* MGCMonthPlannerViewController.h */,
+				2853B5A57AA3D135AE6BA8F6A3FD7C16 /* MGCMonthPlannerViewController.m */,
+				D855CDF41D007E948AD7C02FA290AC43 /* MGCMonthPlannerViewDayCell.h */,
+				E1363E5CD71982E52F324D56E85254CA /* MGCMonthPlannerViewDayCell.m */,
+				19641B46A4A19C8F435CD388C7A4EC1F /* MGCMonthPlannerViewLayout.h */,
+				39C5E4A4F8E632A45E71A994D7D51502 /* MGCMonthPlannerViewLayout.m */,
+				8153FEA784E3396A83C03EEB33218017 /* MGCMonthPlannerWeekView.h */,
+				AB33DBECD28C6DBEC0DA4951AA1BC25B /* MGCMonthPlannerWeekView.m */,
+				E4079F52E02FA0AA21A0771E18734B13 /* MGCReusableObjectQueue.h */,
+				2B9CF8ADA0D6F35A6D444DDBFE509979 /* MGCReusableObjectQueue.m */,
+				39A88D4B41B6AF315A1FD154F116A656 /* MGCStandardEventView.h */,
+				C0CE1663260478C81C60F2572A3D9864 /* MGCStandardEventView.m */,
+				E117FF7198070C788AA83011BBDA952F /* MGCTimedEventsViewLayout.h */,
+				A3F88BEDBB62BDB11E818F64B8292D3E /* MGCTimedEventsViewLayout.m */,
+				CF3630406AF115AA6632CEDD7F65D087 /* MGCTimeRowsView.h */,
+				D90068805C2847473D69E4120192D2F0 /* MGCTimeRowsView.m */,
+				52749ACA7987F770FBE5BA66C6E80BA1 /* MGCYearCalendarMonthCell.h */,
+				5AB55B9F8F26246BD38A0E027361D82C /* MGCYearCalendarMonthCell.m */,
+				1A64187B75296842EDA5BDB89111BE1B /* MGCYearCalendarMonthHeaderView.h */,
+				7AFB720F608B90BF91A4839C396259E5 /* MGCYearCalendarMonthHeaderView.m */,
+				40C8D76A122E05B127419B99D59EC7C0 /* MGCYearCalendarView.h */,
+				BE3ABD74DF1850577BF0CA64306673C1 /* MGCYearCalendarView.m */,
+				B04F9D9E38DC74125C982B588412B140 /* NSAttributedString+MGCAdditions.h */,
+				85ABF4AB9EFE9CC00CDCF62EB28FD927 /* NSAttributedString+MGCAdditions.m */,
+				E754B64C00DAE7E4A9763A9F2218B8E7 /* NSCalendar+MGCAdditions.h */,
+				10758EB649FF7A28F4BC9532D14F9EA4 /* NSCalendar+MGCAdditions.m */,
+				A7ED416D278936D9A50B1E49E574BD58 /* Pod */,
+				944EA716809B16F85AF17308E61250B9 /* Resources */,
+				20FCED3745EE36A0D24D6FAA43298775 /* Support Files */,
 			);
 			name = CalendarLib;
 			path = ..;
 			sourceTree = "<group>";
 		};
+		08D1D69E89A1A6478FC9251916C22719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EE3815E1D2F22D845953623BBA75264 /* OrderedDictionary.framework */,
+				8BC2DF44E1090DE513436D66A3CCA36C /* OSCache.framework */,
+				BB7C44D97EF218FC588D2B4AB89B7BAC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10AE6BCFE894AEA25D235E7DA8FB1586 /* Pods-CalendarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BBF13463F3463A8D800B27598C048470 /* Pods-CalendarDemo.modulemap */,
+				099AC1C9F022FC167A400EF4BC20E6F7 /* Pods-CalendarDemo-acknowledgements.markdown */,
+				3B60B488D8BAD1360D198E85463F9944 /* Pods-CalendarDemo-acknowledgements.plist */,
+				12B392CA889CA17B417CF785E24B8690 /* Pods-CalendarDemo-dummy.m */,
+				4767C429B8DE1439B188AEEB64F4C65A /* Pods-CalendarDemo-frameworks.sh */,
+				823B61B1FDD7FE2B8E677816600F71D5 /* Pods-CalendarDemo-Info.plist */,
+				B7CA1160E8C85FA084284FE50CEDAC2A /* Pods-CalendarDemo-umbrella.h */,
+				925877CB2ECC5F364BDF0ACDE90B83CB /* Pods-CalendarDemo.debug.xcconfig */,
+				6C5BFC8286B338F48862A323EAB48512 /* Pods-CalendarDemo.release.xcconfig */,
+			);
+			name = "Pods-CalendarDemo";
+			path = "Target Support Files/Pods-CalendarDemo";
+			sourceTree = "<group>";
+		};
+		184754A7EA8732F7A75FDE8E4F74AB1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74BE5C8C7170ED989BAADE3F2529FA82 /* OSCache.modulemap */,
+				CFC552B3B78EF99878673A29404EB28F /* OSCache.xcconfig */,
+				6232A02FCB1F8519CFC73FF9FC911D37 /* OSCache-dummy.m */,
+				196FA2A0BA9663D999B05C084EF9F12F /* OSCache-Info.plist */,
+				18D0FA9413D00737F43BF429B971A675 /* OSCache-prefix.pch */,
+				D8449064A4F402A80952F2CD78F12B35 /* OSCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OSCache";
+			sourceTree = "<group>";
+		};
+		20FCED3745EE36A0D24D6FAA43298775 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CB01AA772242CF1C0582803D90E3FDC /* CalendarLib.modulemap */,
+				0E369AF60D515D5F8D97ECB713C7260B /* CalendarLib.xcconfig */,
+				ECC0C2F3313E304DA22E2F97037A7B26 /* CalendarLib-dummy.m */,
+				2E334FECBB32F60B19B7227A6AA62F8E /* CalendarLib-Info.plist */,
+				448DB502B2B2A55BF56EB68BCFF00890 /* CalendarLib-prefix.pch */,
+				DA1BC56D027936405B7F36C4B9FA345B /* CalendarLib-umbrella.h */,
+				9617EC7F10BF73E7CE0B34EBD55A3CEF /* ResourceBundle-CalendarLib-CalendarLib-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/CalendarLib";
+			sourceTree = "<group>";
+		};
+		28AC70F1F0DE96DE9ADF1E402CAEA54F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BB7027A477F855EAE9B917B45A2C572 /* CalendarLib.bundle */,
+				66CE965F3D05D32BBC6FF5AD57ABC8C7 /* CalendarLib.framework */,
+				00CEE15A0DA5A1869F199CD9167638E2 /* OrderedDictionary.framework */,
+				B3E4E80367C6462DE3D115C13EB0B65A /* OSCache.framework */,
+				4386CBD9FCABE5AB3DB018220091FBC5 /* Pods_CalendarDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B37E8366AF3815F1FA20448B442A620 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE7115704BB196D5F0902A345ECC90A /* OrderedDictionary */,
+				D03934CE72E11891D48E750DABC39DFE /* OSCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60F613ED94A8C4055CA01E12C073BF23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7E8282D99BD93FA15A18E59260BDFAF /* OrderedDictionary.modulemap */,
+				3246D6664F9E9F349D2604B8BD71DBD4 /* OrderedDictionary.xcconfig */,
+				03E1E070AAF34FE00ACC9E48B1932AD8 /* OrderedDictionary-dummy.m */,
+				68F26D8E894AABC4F244D4CE39F1AD89 /* OrderedDictionary-Info.plist */,
+				0762A0FDF2016F463DDC05611B910AB5 /* OrderedDictionary-prefix.pch */,
+				2A892CCECFA581CBEED0675705B647D9 /* OrderedDictionary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OrderedDictionary";
+			sourceTree = "<group>";
+		};
+		735A43137763EE94AF3A7782A9A5008D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10AE6BCFE894AEA25D235E7DA8FB1586 /* Pods-CalendarDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		944EA716809B16F85AF17308E61250B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50DF51A7EFFD4036FD5B86DBA0255996 /* en.lproj */,
+				D9CA28CE925F139F7193A3E47EB1855D /* fr.lproj */,
+				2B3D52DCA3EE72D1295FBFC05FEE7A34 /* MGCCalendarHeaderCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7ED416D278936D9A50B1E49E574BD58 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				493DF75039C82357D78ADB732A58BFB8 /* CalendarLib.podspec */,
+				72B1BCC98A77FE0C0B850625859F8F90 /* LICENSE */,
+				7376B7CE136CD8A0A8A5882FBFE62498 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BB7C44D97EF218FC588D2B4AB89B7BAC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BB619158241F1CD5141BC9B254160ED9 /* CoreGraphics.framework */,
+				8C5F33C6B5D60327F21A16A2FADD5B14 /* EventKit.framework */,
+				D19B87104808FEFF519AE683EB48EA30 /* EventKitUI.framework */,
+				3A8E1CE4AC2EDF4B03CD931C2E172F03 /* Foundation.framework */,
+				6D160D6B7A0AE369B31A314F79302BB1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BEA9543994315E3F261854093A36250B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03D9ACE8FE634B8B4B36F46AE54A2DC7 /* CalendarLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCE7115704BB196D5F0902A345ECC90A /* OrderedDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				171E7E86F81018A7AFA523AD426E1A08 /* OrderedDictionary.h */,
+				40C0D1C69EED4F19FF4E12E3CEC08D37 /* OrderedDictionary.m */,
+				60F613ED94A8C4055CA01E12C073BF23 /* Support Files */,
+			);
+			name = OrderedDictionary;
+			path = OrderedDictionary;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BEA9543994315E3F261854093A36250B /* Development Pods */,
+				08D1D69E89A1A6478FC9251916C22719 /* Frameworks */,
+				2B37E8366AF3815F1FA20448B442A620 /* Pods */,
+				28AC70F1F0DE96DE9ADF1E402CAEA54F /* Products */,
+				735A43137763EE94AF3A7782A9A5008D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D03934CE72E11891D48E750DABC39DFE /* OSCache */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D73C43733D9120A028A86DAC285EF /* OSCache.h */,
+				0FB54F28D7C4B95EE4B5755BC2397DBE /* OSCache.m */,
+				184754A7EA8732F7A75FDE8E4F74AB1A /* Support Files */,
+			);
+			name = OSCache;
+			path = OSCache;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0097DE418A1E57A230B68F9B4608BE4A /* Headers */ = {
+		342AF8E2E7BDDC93A602B3BD0A87314B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC32A4731D31055C00AB19D7 /* MGCCalendarHeaderView.h in Headers */,
-				16C92160004A461104976AE8D9ECECC1 /* CalendarLib-umbrella.h in Headers */,
-				4397926F702DA9AE79D00C59106E2099 /* Constant.h in Headers */,
-				B34A1260B1EC1E724AC20BBD8329671F /* MGCAlignedGeometry.h in Headers */,
-				BC3300D03E96ADC4526AC9CFE3110876 /* MGCAllDayEventsViewLayout.h in Headers */,
-				40270C224A640E091730C3F668E3633D /* MGCDateRange.h in Headers */,
-				346A291DD56A77A5080532CCF8C8C0DA /* MGCDayColumnCell.h in Headers */,
-				3F0BCD07266D82C97C13C958CA64C33D /* MGCDayPlannerEKViewController.h in Headers */,
-				283AE0B9767480D604A0F53E39522C3D /* MGCDayPlannerView.h in Headers */,
-				10040D2BC447B188F90C6D1358FF833B /* MGCDayPlannerViewController.h in Headers */,
-				6B8A6D46DE2B271A9CF861E8EBA075D5 /* MGCEventCell.h in Headers */,
-				C7C218477AEAAFD0EA27A58A9573F231 /* MGCEventCellLayoutAttributes.h in Headers */,
-				283F36B27EFB452A37D27FBDAD6EB173 /* MGCEventKitSupport.h in Headers */,
-				54986D8A0769E0968396794DB5CF53AD /* MGCEventsRowView.h in Headers */,
-				FA3B1812DFF8E7491ED66C2395EFB8AC /* MGCEventView.h in Headers */,
-				F5D52A699620031B048F46462041E2F2 /* MGCInteractiveEventView.h in Headers */,
-				F25B2B6D821D0E1D771058D5FF140FD3 /* MGCMonthMiniCalendarView.h in Headers */,
-				573CA837DA4F7C1B9371A8A283001B90 /* MGCMonthPlannerBackgroundView.h in Headers */,
-				8D2AC2F545A689196AD380EB39531B0A /* MGCMonthPlannerEKViewController.h in Headers */,
-				A82B51DBD620C3F9150E16E71B1125FD /* MGCMonthPlannerHeaderView.h in Headers */,
-				853E943F3A44E653A19A993E22E885C0 /* MGCMonthPlannerView.h in Headers */,
-				15382445402A28617FCA964461A6B4BA /* MGCMonthPlannerViewController.h in Headers */,
-				BC32A46E1D31055C00AB19D7 /* MGCCalendarHeaderCell.h in Headers */,
-				C2E9436B5AD60E85AD494381590EBEC4 /* MGCMonthPlannerViewDayCell.h in Headers */,
-				49B450EAE456ECB2647A3D637CC1B852 /* MGCMonthPlannerViewLayout.h in Headers */,
-				CBC4E2B6ED53D394ACEE641727ABD9F2 /* MGCMonthPlannerWeekView.h in Headers */,
-				35168AD739FC86E090E22E4D715D77BD /* MGCReusableObjectQueue.h in Headers */,
-				5BDF04C89F0F2C5BF48B3FD813AA5E2E /* MGCStandardEventView.h in Headers */,
-				19F22C8E0461D90DCB5CAA2E2FD67B02 /* MGCTimedEventsViewLayout.h in Headers */,
-				AB3FE3B79D8358BDB3E3C508558276B4 /* MGCTimeRowsView.h in Headers */,
-				8AAB64C0FF8986D4580019BB0F37066D /* MGCYearCalendarMonthCell.h in Headers */,
-				D4AF7DE5DD942DA2C7819174168125C8 /* MGCYearCalendarMonthHeaderView.h in Headers */,
-				B74FE528568313CE30EA6D663738BB34 /* MGCYearCalendarView.h in Headers */,
-				D03C03FB5C6CA1F143621A42605C78A6 /* NSAttributedString+MGCAdditions.h in Headers */,
-				A4E3633A2C1959A55C3CFDFDFD37FBC2 /* NSCalendar+MGCAdditions.h in Headers */,
+				EE99DB599BFD96B94A310C7434667183 /* OrderedDictionary-umbrella.h in Headers */,
+				2A82FCCE8A320E8D3E5E608E623ACFE5 /* OrderedDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE1912BFD3CC1D9E0C97641EF70CA68 /* Headers */ = {
+		64905C6A5E82D3BDEE806C54C0441D60 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB4DDDC12B79389CFC8C49DCF39C1A2 /* OSCache-umbrella.h in Headers */,
-				EC8FF04893A567958DF9E6CE758D24EB /* OSCache.h in Headers */,
+				72340A5C59138965FE8DC1F61F26F275 /* OSCache-umbrella.h in Headers */,
+				E5D47879EA8B7D1C97F0E1E18C4979E1 /* OSCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72AAB71C10D9161B9CECF35BA2EB3C34 /* Headers */ = {
+		AF46EEFBB58F7BCC9D42929F87E03C78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10440B43B679E057C81AE26E6737C71A /* Pods-CalendarDemo-umbrella.h in Headers */,
+				4A6A79572CF776A9A813C1516E59749B /* CalendarLib-umbrella.h in Headers */,
+				2FD0FB27C84F44EDACFF4B10A76B394C /* Constant.h in Headers */,
+				8D300F50BAFB0738D7610A6B178AC889 /* MGCAlignedGeometry.h in Headers */,
+				00D36CC7F080A332C411A76FF1ADA5FF /* MGCAllDayEventsViewLayout.h in Headers */,
+				937DA07E60DB643D2EDC6C4A18EFB946 /* MGCCalendarHeaderCell.h in Headers */,
+				DB03A40D4E92B25E16B2BF2ACE7A54AA /* MGCCalendarHeaderView.h in Headers */,
+				D6AC5F6DDA6AC65D08ABE0F9C6A104B9 /* MGCDateRange.h in Headers */,
+				BA955F093E15EC94331DFA7F7BC0FA7F /* MGCDayColumnCell.h in Headers */,
+				F23AD539AF2E9B664D87C9EE8C6937D4 /* MGCDayPlannerEKViewController.h in Headers */,
+				EFC992164494A0AEA2A1E8F8DD4D0317 /* MGCDayPlannerView.h in Headers */,
+				F05D383A280BC3C39B6CE8541BE3D60C /* MGCDayPlannerViewController.h in Headers */,
+				72C8E68DAB7D17F72D312DC9F8D6E05C /* MGCEventCell.h in Headers */,
+				3619EEBA51D38379CC78E21A163C7A98 /* MGCEventCellLayoutAttributes.h in Headers */,
+				9DB7EB4B21012B4F10E84F4E34111F4F /* MGCEventKitSupport.h in Headers */,
+				C5CB10AED78C356333CB41FB2BC3E741 /* MGCEventsRowView.h in Headers */,
+				113403F9F75F81522495F3C71C3BF0B1 /* MGCEventView.h in Headers */,
+				8422D019F8FC57090FD281B4DC5FC620 /* MGCInteractiveEventView.h in Headers */,
+				B1B5ED66183F733A5663C0C36A6528B9 /* MGCMonthMiniCalendarView.h in Headers */,
+				F5AE56537BE958C8BB28B749A45A5B9D /* MGCMonthPlannerBackgroundView.h in Headers */,
+				299BDB3A094D569C08B7E83A1EAF0758 /* MGCMonthPlannerEKViewController.h in Headers */,
+				F67F69CAB992BDDEAB6D875A75CABB90 /* MGCMonthPlannerHeaderView.h in Headers */,
+				2199ADFFDF680EB62A0CB043A43C79AD /* MGCMonthPlannerView.h in Headers */,
+				F9DBE135D01418A481D8F0026C79A819 /* MGCMonthPlannerViewController.h in Headers */,
+				CAC8E9842A9226FC9B0ADF9831253691 /* MGCMonthPlannerViewDayCell.h in Headers */,
+				4385AE67F6FAE5B0C3854F0D975FFD25 /* MGCMonthPlannerViewLayout.h in Headers */,
+				2085DE6EFDD5F63ED6DE3A66AC493232 /* MGCMonthPlannerWeekView.h in Headers */,
+				DBC6B358F7A21A3D87B2FB354503353B /* MGCReusableObjectQueue.h in Headers */,
+				4C012230C30C5B0757438753983F278C /* MGCStandardEventView.h in Headers */,
+				B59819CB9D1852E53815743BAF0ED083 /* MGCTimedEventsViewLayout.h in Headers */,
+				441B096CC32852F38E9F33A5FAD4B1BB /* MGCTimeRowsView.h in Headers */,
+				0BA718A83A8C1D604438A3937C81490C /* MGCYearCalendarMonthCell.h in Headers */,
+				F96D0DC2DA36A105E8489D697F2F76ED /* MGCYearCalendarMonthHeaderView.h in Headers */,
+				9B2568235521359315C4CE1DDFD8B316 /* MGCYearCalendarView.h in Headers */,
+				5F8D204BA15C984639835AFA0B75CE8B /* NSAttributedString+MGCAdditions.h in Headers */,
+				69291A81F5DF2F97CCAB935ACA59AD0E /* NSCalendar+MGCAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA4E72657FE4E8A1695BD505C8E7BDB1 /* Headers */ = {
+		E5671109C369A5BC92D9B1E7E726E4D8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A02B3D0D0A5C4F9A05668A732FDF73F /* OrderedDictionary-umbrella.h in Headers */,
-				8A637532D7C717B031F5479C9DFDCF96 /* OrderedDictionary.h in Headers */,
+				1C043ED8345F1AD0E16B5D624818CB16 /* Pods-CalendarDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14730700B2D60DF9994CA196CE7ADE3C /* OSCache */ = {
+		33A8E6F3284E6D1BB853998C5D19AFD1 /* Pods-CalendarDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AF40903545821C2654D818E75824FFD /* Build configuration list for PBXNativeTarget "OSCache" */;
+			buildConfigurationList = 19527B61401455B144FC949F4A9DBE6E /* Build configuration list for PBXNativeTarget "Pods-CalendarDemo" */;
 			buildPhases = (
-				690591D27D2C822C43B2C4C87F6D6C5C /* Sources */,
-				4CBB24793DE31904DE12AAE27652CDAF /* Frameworks */,
-				5DE1912BFD3CC1D9E0C97641EF70CA68 /* Headers */,
+				E5671109C369A5BC92D9B1E7E726E4D8 /* Headers */,
+				937722A86607CE436B7F94E9FA43A5CF /* Sources */,
+				886187106D116510D11D14218ACBB0EA /* Frameworks */,
+				53DD11C8A8B5718F3264BDF3DDE73F29 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = OSCache;
-			productName = OSCache;
-			productReference = 8C18D98026C88F9B1A13FDC05F89DAD8 /* OSCache.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2673FB444CAD63D7872199869D12B242 /* CalendarLib-CalendarLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07144BF1E580A3278D85202D9E0EA237 /* Build configuration list for PBXNativeTarget "CalendarLib-CalendarLib" */;
-			buildPhases = (
-				CDD2092E21B82B3A3B72CC48D207F924 /* Sources */,
-				F843E9A69A061049F1525728BB17C353 /* Frameworks */,
-				CEAC95CC33396F30D3AE7158AF0FAE52 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CalendarLib-CalendarLib";
-			productName = "CalendarLib-CalendarLib";
-			productReference = 474F46F9D3CD4C66494C6398945993BC /* CalendarLib.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		954B3024145E89BE4F9E6E9D69C08294 /* CalendarLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F26F9C94C86D2CEE93EC87FD35694730 /* Build configuration list for PBXNativeTarget "CalendarLib" */;
-			buildPhases = (
-				4E199C2917722C49AB58903AD671F496 /* Sources */,
-				1EC64EB638F6BCDC5F10055A15FFF2D7 /* Frameworks */,
-				05B843E94270077471F87E84B4003FE5 /* Resources */,
-				0097DE418A1E57A230B68F9B4608BE4A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				01B8A5375E02A752828EE107C73EC16F /* PBXTargetDependency */,
-				D77B8F103B746F42F033679A3279BB50 /* PBXTargetDependency */,
-				B30A607B34FB56CCE2734DC48D203E0B /* PBXTargetDependency */,
-			);
-			name = CalendarLib;
-			productName = CalendarLib;
-			productReference = 8CE9C5EF3DED23005E916FF98A2CA920 /* CalendarLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BD9836C41E7DFF6FBF342C27330545CC /* Pods-CalendarDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F57CD8D2CD27C91A8F740F9626848DC /* Build configuration list for PBXNativeTarget "Pods-CalendarDemo" */;
-			buildPhases = (
-				BD8483794B745327BA015964C42414C1 /* Sources */,
-				0275B4DC678C28992E1187C30A9DDF15 /* Frameworks */,
-				72AAB71C10D9161B9CECF35BA2EB3C34 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9679F4D7B4B4E34D62A0E940D9433A91 /* PBXTargetDependency */,
-				EF1EA0968227FD731A40FF601176B1AE /* PBXTargetDependency */,
-				EA5A8F475FEA043B3E1A98941B9495CE /* PBXTargetDependency */,
+				0F57BAB59A2B0C66D43EC20944B9496E /* PBXTargetDependency */,
+				31C9A567480CEB780E686E3099184DB8 /* PBXTargetDependency */,
+				B760278E7C152A72E1F3A2B23990C0A8 /* PBXTargetDependency */,
 			);
 			name = "Pods-CalendarDemo";
 			productName = "Pods-CalendarDemo";
-			productReference = ACC24998E5D2DA77072A37C508B33258 /* Pods_CalendarDemo.framework */;
+			productReference = 4386CBD9FCABE5AB3DB018220091FBC5 /* Pods_CalendarDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C4C32B98A88C3F59ADE6A79B82E1867F /* OrderedDictionary */ = {
+		389BBC0943707AEA7152D46E40748CE4 /* OrderedDictionary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CC8891570BE8E1A33A407A1C2B1D477 /* Build configuration list for PBXNativeTarget "OrderedDictionary" */;
+			buildConfigurationList = D72707B74368BBE57C16CA8CADF2A92A /* Build configuration list for PBXNativeTarget "OrderedDictionary" */;
 			buildPhases = (
-				8278A713DFCC290E209F1CFFDC7D5986 /* Sources */,
-				DDD37FE54B9E2C86B5DFECBEA28EFF5D /* Frameworks */,
-				FA4E72657FE4E8A1695BD505C8E7BDB1 /* Headers */,
+				342AF8E2E7BDDC93A602B3BD0A87314B /* Headers */,
+				8E585F006C626F152E68CC4929D35058 /* Sources */,
+				E781BFC6EFF3770084EE5D5219EB8892 /* Frameworks */,
+				01259EF6ED45D1FB2249C2230DC703BC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -734,336 +678,543 @@
 			);
 			name = OrderedDictionary;
 			productName = OrderedDictionary;
-			productReference = CA7F02164398FAF257C7384B0BD5A439 /* OrderedDictionary.framework */;
+			productReference = 00CEE15A0DA5A1869F199CD9167638E2 /* OrderedDictionary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66C094471CDF36FEAC48ADBCA002987D /* CalendarLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688970CE8CE74CDCFCD1F322796A01B8 /* Build configuration list for PBXNativeTarget "CalendarLib" */;
+			buildPhases = (
+				AF46EEFBB58F7BCC9D42929F87E03C78 /* Headers */,
+				75D92C8C05B32ECACC215F2DEBD72932 /* Sources */,
+				5EC609972F2F4713ADF2A832DDDC7AD6 /* Frameworks */,
+				1201009A2EC68BD626DB133FAC1246B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613C2F43E4632F6514D9FCD45DC1853A /* PBXTargetDependency */,
+				914BD0229EA3ED3D044C030C94969535 /* PBXTargetDependency */,
+				FFBA66FF5B2B8EEBE003ABCBBF1878C8 /* PBXTargetDependency */,
+			);
+			name = CalendarLib;
+			productName = CalendarLib;
+			productReference = 66CE965F3D05D32BBC6FF5AD57ABC8C7 /* CalendarLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4AC74E49DCF55B046D693F5B3AAA248 /* CalendarLib-CalendarLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E112A8B84085EF970DE40A450C8B3B6 /* Build configuration list for PBXNativeTarget "CalendarLib-CalendarLib" */;
+			buildPhases = (
+				47E7D9EEBB6141CC6AA39608E9CF6A01 /* Sources */,
+				8D5341C5227C93881BCBD0206EF62820 /* Frameworks */,
+				46C06E115EA8C6ED517620C845DBB2D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalendarLib-CalendarLib";
+			productName = "CalendarLib-CalendarLib";
+			productReference = 1BB7027A477F855EAE9B917B45A2C572 /* CalendarLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CEDA3E856F500E0C60F1EF64F65AA8D2 /* OSCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937D9D2368892CB42A5D4821E9D2952E /* Build configuration list for PBXNativeTarget "OSCache" */;
+			buildPhases = (
+				64905C6A5E82D3BDEE806C54C0441D60 /* Headers */,
+				E7F65CE1340F4BEE5EBF94BC732DCFCF /* Sources */,
+				EEE8C96B047842E7AF4413891A29EDE2 /* Frameworks */,
+				0B122A99B47B79332FF254471B94AF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSCache;
+			productName = OSCache;
+			productReference = B3E4E80367C6462DE3D115C13EB0B65A /* OSCache.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0D3FC36B1AD1B91A19EB93398CB883B7 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 28AC70F1F0DE96DE9ADF1E402CAEA54F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				954B3024145E89BE4F9E6E9D69C08294 /* CalendarLib */,
-				2673FB444CAD63D7872199869D12B242 /* CalendarLib-CalendarLib */,
-				C4C32B98A88C3F59ADE6A79B82E1867F /* OrderedDictionary */,
-				14730700B2D60DF9994CA196CE7ADE3C /* OSCache */,
-				BD9836C41E7DFF6FBF342C27330545CC /* Pods-CalendarDemo */,
+				66C094471CDF36FEAC48ADBCA002987D /* CalendarLib */,
+				A4AC74E49DCF55B046D693F5B3AAA248 /* CalendarLib-CalendarLib */,
+				389BBC0943707AEA7152D46E40748CE4 /* OrderedDictionary */,
+				CEDA3E856F500E0C60F1EF64F65AA8D2 /* OSCache */,
+				33A8E6F3284E6D1BB853998C5D19AFD1 /* Pods-CalendarDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05B843E94270077471F87E84B4003FE5 /* Resources */ = {
+		01259EF6ED45D1FB2249C2230DC703BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC32A4711D31055C00AB19D7 /* MGCCalendarHeaderCell.xib in Resources */,
-				BC129756EB184EB7B54FC078D77EAE6F /* CalendarLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEAC95CC33396F30D3AE7158AF0FAE52 /* Resources */ = {
+		0B122A99B47B79332FF254471B94AF1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C3A8E49CF779F8E6C61A9E1F51A74D /* en.lproj in Resources */,
-				84A07A7FFF9C2A776980FEE43091F865 /* fr.lproj in Resources */,
-				BC32A4721D31055C00AB19D7 /* MGCCalendarHeaderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1201009A2EC68BD626DB133FAC1246B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32867BA7A00AC2C42D5782A99BA182A4 /* CalendarLib.bundle in Resources */,
+				217415D01C6947204008C1E8265CBBC3 /* MGCCalendarHeaderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C06E115EA8C6ED517620C845DBB2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E42BA5D9A7E4AB4151231DA5C7D051 /* en.lproj in Resources */,
+				31B3A7A94C693A6F4EDDAE1A80E6FE06 /* fr.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DD11C8A8B5718F3264BDF3DDE73F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E199C2917722C49AB58903AD671F496 /* Sources */ = {
+		47E7D9EEBB6141CC6AA39608E9CF6A01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C706FCCF0E309E935E3D2FE5A591D07 /* CalendarLib-dummy.m in Sources */,
-				35029C6B4FA6AD6A0553D5BA04E025EA /* MGCAlignedGeometry.m in Sources */,
-				61F3B5E100AF6B8DFCBD8EC07A31735E /* MGCAllDayEventsViewLayout.m in Sources */,
-				29E8849D9EE6CF5F258DCD59CAE90BA3 /* MGCDateRange.m in Sources */,
-				85EE00D6E106AFF3B3D6A5CE1EAAD041 /* MGCDayColumnCell.m in Sources */,
-				72A71ECA963D06465DFD8B3E12AD41BE /* MGCDayPlannerEKViewController.m in Sources */,
-				FC40921F50ED56C61523597E5D292C4D /* MGCDayPlannerView.m in Sources */,
-				8C5F4307DCA368C7F9DB7ED256DA31D1 /* MGCDayPlannerViewController.m in Sources */,
-				4B0870E36D23BD129E6C0280E2808F3E /* MGCEventCell.m in Sources */,
-				A76C549C7C4534A81AD9B6ACA732DDB8 /* MGCEventCellLayoutAttributes.m in Sources */,
-				5553D815BA0ECF462F0454F8CF32B6C9 /* MGCEventKitSupport.m in Sources */,
-				BC32A46F1D31055C00AB19D7 /* MGCCalendarHeaderCell.m in Sources */,
-				3260AFF8730CC2F514A4B476F6E3B1C9 /* MGCEventsRowView.m in Sources */,
-				2BEB9A448F785B4ABD58E7E5A0C0AAB8 /* MGCEventView.m in Sources */,
-				D865046DF81EB3FB4A8D12EB03740124 /* MGCInteractiveEventView.m in Sources */,
-				9C8B2BAEF1120713575CAD5BE1DD916E /* MGCMonthMiniCalendarView.m in Sources */,
-				37DBF567D2C4D15EC52DD728B4A4C2ED /* MGCMonthPlannerBackgroundView.m in Sources */,
-				F73109644FB32F739BF1198430F0A34F /* MGCMonthPlannerEKViewController.m in Sources */,
-				53BC63EF2BFA0161AD495D4705E5B73D /* MGCMonthPlannerHeaderView.m in Sources */,
-				1A9BC91D8D76AC397062ACE2EB451390 /* MGCMonthPlannerView.m in Sources */,
-				BC4DAE0E1E3ED7AEF78839F4815A0211 /* MGCMonthPlannerViewController.m in Sources */,
-				BC32A4741D31055C00AB19D7 /* MGCCalendarHeaderView.m in Sources */,
-				E9AE3F473F8DBF38B493A0680606EDDA /* MGCMonthPlannerViewDayCell.m in Sources */,
-				C604B7A49ABD9407AA6E50F1D1B4BF3B /* MGCMonthPlannerViewLayout.m in Sources */,
-				3D8DB0D93E99C225519CB0B964BB76F0 /* MGCMonthPlannerWeekView.m in Sources */,
-				0BD8EEF83D60B467C0D92522C179EF3F /* MGCReusableObjectQueue.m in Sources */,
-				B4479162A06A4B6E1321D7C5A73581A4 /* MGCStandardEventView.m in Sources */,
-				AB467272C402ACAEBE8E72A7FEA04A55 /* MGCTimedEventsViewLayout.m in Sources */,
-				666876A324A754DE9EC656D6B4A75C8A /* MGCTimeRowsView.m in Sources */,
-				575AD525B5810BD268D31DE10E9D981C /* MGCYearCalendarMonthCell.m in Sources */,
-				165AC579BF526F5FA7BC861EB1E98A5E /* MGCYearCalendarMonthHeaderView.m in Sources */,
-				BE3DF61E19CE6628EFBC28FC4E5249F1 /* MGCYearCalendarView.m in Sources */,
-				F091908CE32B34A524ABBD458D4C2FDA /* NSAttributedString+MGCAdditions.m in Sources */,
-				5B5865D94AE1962D0BDE732CCCA5FCB4 /* NSCalendar+MGCAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		690591D27D2C822C43B2C4C87F6D6C5C /* Sources */ = {
+		75D92C8C05B32ECACC215F2DEBD72932 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0BFAF44B9F2E107744B1EC5ED51A912 /* OSCache-dummy.m in Sources */,
-				4922375228078DC8286BD4E99CD1EE21 /* OSCache.m in Sources */,
+				EB6474E24A23F12CBC186D6C0F5A6581 /* CalendarLib-dummy.m in Sources */,
+				12B7E5B0873587DE9C55D91ED50F8070 /* MGCAlignedGeometry.m in Sources */,
+				4C83CAA0B5BFF558D236A849A8593963 /* MGCAllDayEventsViewLayout.m in Sources */,
+				7BD6B8693B1A889F3790D466D249BB7C /* MGCCalendarHeaderCell.m in Sources */,
+				3471651C158DFEBA68FF25915C46CC6C /* MGCCalendarHeaderView.m in Sources */,
+				50E0B470F5247FDF76DBD971FE8292E7 /* MGCDateRange.m in Sources */,
+				6D9123BAE9F35512F6EEECBEAFEDB894 /* MGCDayColumnCell.m in Sources */,
+				15B59CCD89373321D0C870C3D834BF08 /* MGCDayPlannerEKViewController.m in Sources */,
+				03D943766406209FACB186E497373270 /* MGCDayPlannerView.m in Sources */,
+				5660EBFD7EA108E8EB8E348DAEAA1D10 /* MGCDayPlannerViewController.m in Sources */,
+				0DFCEF3CDEA4C5974B34A672CA3E9A5F /* MGCEventCell.m in Sources */,
+				A26BAB26527A5EE269DAD8046AC18FE2 /* MGCEventCellLayoutAttributes.m in Sources */,
+				82D655AEC2549C5B6E2E7A29DFDDA6A0 /* MGCEventKitSupport.m in Sources */,
+				2CFB3446DA859A1B7CF38115ADC15945 /* MGCEventsRowView.m in Sources */,
+				2B6EBC6FF8FD5440ABCA2BC87378B7BB /* MGCEventView.m in Sources */,
+				A6729A29A400148B3E667231DB3D34EC /* MGCInteractiveEventView.m in Sources */,
+				80F5FF66432C531DAF242A33329124FC /* MGCMonthMiniCalendarView.m in Sources */,
+				5562A2CDA7BE1FF3DA536F4DC6F30A4B /* MGCMonthPlannerBackgroundView.m in Sources */,
+				7BF7CA71AD5885413229C3F914DE35FA /* MGCMonthPlannerEKViewController.m in Sources */,
+				5908B94CA3E3A6281D135FBBF9E03BEE /* MGCMonthPlannerHeaderView.m in Sources */,
+				2D6DF4BE6A0D8E1CC0E157908D8420E5 /* MGCMonthPlannerView.m in Sources */,
+				93059A25AB14C307F61377AA036D855C /* MGCMonthPlannerViewController.m in Sources */,
+				91E0A91CA7484967899FC45F4FCF2E74 /* MGCMonthPlannerViewDayCell.m in Sources */,
+				68DE01A41323E57448A3FC3C8C7331C3 /* MGCMonthPlannerViewLayout.m in Sources */,
+				065EA57724E14C75806811E3AB4B20D6 /* MGCMonthPlannerWeekView.m in Sources */,
+				FBBE8C29CE74A05A49171EFA08DBF54F /* MGCReusableObjectQueue.m in Sources */,
+				CE564C30A85BA8CBDE2B0C88105D542E /* MGCStandardEventView.m in Sources */,
+				DBB500F88E59EF5ACFC5164084CF8BF0 /* MGCTimedEventsViewLayout.m in Sources */,
+				85326611A43A3DCF21FC49FFA752B564 /* MGCTimeRowsView.m in Sources */,
+				056F996B52BD59003DBFD711DB6BD021 /* MGCYearCalendarMonthCell.m in Sources */,
+				77F33C4DFB16C232E37F236994E3E593 /* MGCYearCalendarMonthHeaderView.m in Sources */,
+				470DD5AFB40FC239B3DB373C8F524475 /* MGCYearCalendarView.m in Sources */,
+				5D0524CDBF7646AE1943731F9B2055AC /* NSAttributedString+MGCAdditions.m in Sources */,
+				E9AD0CE94B70E1471CB3442D8F4AB3F0 /* NSCalendar+MGCAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8278A713DFCC290E209F1CFFDC7D5986 /* Sources */ = {
+		8E585F006C626F152E68CC4929D35058 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5F2CEFF434DDCA14403D6B50D9D5DC /* OrderedDictionary-dummy.m in Sources */,
-				B826786804B51980ECAEA62B1B41B2BC /* OrderedDictionary.m in Sources */,
+				FB350AE2B0B980D76903E220BD9645C7 /* OrderedDictionary-dummy.m in Sources */,
+				C7B30299654BF15355BC39CC8C5596F5 /* OrderedDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD8483794B745327BA015964C42414C1 /* Sources */ = {
+		937722A86607CE436B7F94E9FA43A5CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F955276513957B6951657920F606D1 /* Pods-CalendarDemo-dummy.m in Sources */,
+				E9A34F759341BC07C05DD5FCBE7A0CE3 /* Pods-CalendarDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDD2092E21B82B3A3B72CC48D207F924 /* Sources */ = {
+		E7F65CE1340F4BEE5EBF94BC732DCFCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF279BAAAD5EC972EC7ACB5519D0451 /* OSCache-dummy.m in Sources */,
+				D8D91AF3069649D64AC07243D27E231F /* OSCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01B8A5375E02A752828EE107C73EC16F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CalendarLib-CalendarLib";
-			target = 2673FB444CAD63D7872199869D12B242 /* CalendarLib-CalendarLib */;
-			targetProxy = 116AD1AD124691B81F860EABA00AFA9D /* PBXContainerItemProxy */;
-		};
-		9679F4D7B4B4E34D62A0E940D9433A91 /* PBXTargetDependency */ = {
+		0F57BAB59A2B0C66D43EC20944B9496E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CalendarLib;
-			target = 954B3024145E89BE4F9E6E9D69C08294 /* CalendarLib */;
-			targetProxy = 4C01AAE245FE633F3DEA17EE7B779B6B /* PBXContainerItemProxy */;
+			target = 66C094471CDF36FEAC48ADBCA002987D /* CalendarLib */;
+			targetProxy = 0998ABCFF9E71F9F42B0162CE4D262AE /* PBXContainerItemProxy */;
 		};
-		B30A607B34FB56CCE2734DC48D203E0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OrderedDictionary;
-			target = C4C32B98A88C3F59ADE6A79B82E1867F /* OrderedDictionary */;
-			targetProxy = 34A195D9FB4A9B50F0F1B11ED70A896D /* PBXContainerItemProxy */;
-		};
-		D77B8F103B746F42F033679A3279BB50 /* PBXTargetDependency */ = {
+		31C9A567480CEB780E686E3099184DB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OSCache;
-			target = 14730700B2D60DF9994CA196CE7ADE3C /* OSCache */;
-			targetProxy = 9DD2E24E413DC847B0033DF85707DD8B /* PBXContainerItemProxy */;
+			target = CEDA3E856F500E0C60F1EF64F65AA8D2 /* OSCache */;
+			targetProxy = B6073C8B2888684DDDF4F0CF95F50765 /* PBXContainerItemProxy */;
 		};
-		EA5A8F475FEA043B3E1A98941B9495CE /* PBXTargetDependency */ = {
+		613C2F43E4632F6514D9FCD45DC1853A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = OrderedDictionary;
-			target = C4C32B98A88C3F59ADE6A79B82E1867F /* OrderedDictionary */;
-			targetProxy = 983B1F146273EC8F5F8DF62B5F4778BD /* PBXContainerItemProxy */;
+			name = "CalendarLib-CalendarLib";
+			target = A4AC74E49DCF55B046D693F5B3AAA248 /* CalendarLib-CalendarLib */;
+			targetProxy = D02658053DCEBFF9436773DB27D14350 /* PBXContainerItemProxy */;
 		};
-		EF1EA0968227FD731A40FF601176B1AE /* PBXTargetDependency */ = {
+		914BD0229EA3ED3D044C030C94969535 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OSCache;
-			target = 14730700B2D60DF9994CA196CE7ADE3C /* OSCache */;
-			targetProxy = 9380B5DACC543EBA205B2EE9EA115A29 /* PBXContainerItemProxy */;
+			target = CEDA3E856F500E0C60F1EF64F65AA8D2 /* OSCache */;
+			targetProxy = FD8269B51B233C2B36D6CFE77E561F53 /* PBXContainerItemProxy */;
+		};
+		B760278E7C152A72E1F3A2B23990C0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderedDictionary;
+			target = 389BBC0943707AEA7152D46E40748CE4 /* OrderedDictionary */;
+			targetProxy = B99CA6EDF12EA54B12108D22BF726489 /* PBXContainerItemProxy */;
+		};
+		FFBA66FF5B2B8EEBE003ABCBBF1878C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderedDictionary;
+			target = 389BBC0943707AEA7152D46E40748CE4 /* OrderedDictionary */;
+			targetProxy = A6B52C11825E54EEEA25A6764DE8317E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0735BCB872CF18210AB3B60136419110 /* Release */ = {
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B19161673C40175196589DF322D71AD /* CalendarLib.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0C19B26E191BA1E4D09F089038627B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5BFC8286B338F48862A323EAB48512 /* Pods-CalendarDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CalendarLib/CalendarLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CalendarLib/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CalendarDemo/Pods-CalendarDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CalendarLib/CalendarLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CalendarLib;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalendarDemo/Pods-CalendarDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B63D9A87B1E6B2CF052B9BE5B644E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925877CB2ECC5F364BDF0ACDE90B83CB /* Pods-CalendarDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CalendarDemo/Pods-CalendarDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalendarDemo/Pods-CalendarDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+		2F553EEA41DB975FA7FEF809CA3C8321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC552B3B78EF99878673A29404EB28F /* OSCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OSCache/OSCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OSCache/OSCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OSCache/OSCache.modulemap";
+				PRODUCT_MODULE_NAME = OSCache;
+				PRODUCT_NAME = OSCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		56DEC5F3C442970AD928BA35839A79A3 /* Debug */ = {
+		466DBF67EBF0C37011513D83CEEA6ED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA6A2957B0D8809A9F6F3A173CAC5A75 /* OrderedDictionary.xcconfig */;
+			baseConfigurationReference = 3246D6664F9E9F349D2604B8BD71DBD4 /* OrderedDictionary.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/OrderedDictionary/OrderedDictionary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OrderedDictionary/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/OrderedDictionary/OrderedDictionary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OrderedDictionary/OrderedDictionary.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = OrderedDictionary;
 				PRODUCT_NAME = OrderedDictionary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5FBDA6B82A65D6022AE9C118C723C902 /* Debug */ = {
+		6533BAF03D2060C57019808F35599D11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08E408886344FC31ED4A170A9DC261D8 /* Pods-CalendarDemo.debug.xcconfig */;
+			baseConfigurationReference = CFC552B3B78EF99878673A29404EB28F /* OSCache.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CalendarDemo/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OSCache/OSCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OSCache/OSCache-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CalendarDemo/Pods-CalendarDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CalendarDemo;
+				MODULEMAP_FILE = "Target Support Files/OSCache/OSCache.modulemap";
+				PRODUCT_MODULE_NAME = OSCache;
+				PRODUCT_NAME = OSCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		80614831968EDB0B9E25AD957D95DAFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B19161673C40175196589DF322D71AD /* CalendarLib.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CalendarLib";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/CalendarLib/ResourceBundle-CalendarLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = CalendarLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
 			name = Release;
 		};
-		A6750A5EEEFDAD9ED14FD831849F29D1 /* Debug */ = {
+		9EE45524CA42784485DB11DA48DB7B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B19161673C40175196589DF322D71AD /* CalendarLib.xcconfig */;
+			baseConfigurationReference = 0E369AF60D515D5F8D97ECB713C7260B /* CalendarLib.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CalendarLib";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/CalendarLib/ResourceBundle-CalendarLib-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CalendarLib/ResourceBundle-CalendarLib-CalendarLib-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = CalendarLib;
 				SDKROOT = iphoneos;
@@ -1073,251 +1224,172 @@
 			};
 			name = Debug;
 		};
-		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+		A054808C424A04E7ADC9AD05B186E09C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3246D6664F9E9F349D2604B8BD71DBD4 /* OrderedDictionary.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B0EF01E294EDC0EE7EF3B170A79099F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B19161673C40175196589DF322D71AD /* CalendarLib.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OrderedDictionary/OrderedDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderedDictionary/OrderedDictionary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderedDictionary/OrderedDictionary.modulemap";
+				PRODUCT_MODULE_NAME = OrderedDictionary;
+				PRODUCT_NAME = OrderedDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C88DA266214AA5088FDBB14122F87F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E369AF60D515D5F8D97ECB713C7260B /* CalendarLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CalendarLib/CalendarLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CalendarLib/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CalendarLib/CalendarLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CalendarLib/CalendarLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = CalendarLib;
+				PRODUCT_NAME = CalendarLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5415FD5E96DC9E069117FBC1D7B6262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E369AF60D515D5F8D97ECB713C7260B /* CalendarLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CalendarLib";
+				INFOPLIST_FILE = "Target Support Files/CalendarLib/ResourceBundle-CalendarLib-CalendarLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = CalendarLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		C44DE9A570B41E729B012ADA5DD08621 /* Release */ = {
+		F64CE1C0AF66D70633B67483AA8B101F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF6D24E3BB10D55468C1356A066A7012 /* Pods-CalendarDemo.release.xcconfig */;
+			baseConfigurationReference = 0E369AF60D515D5F8D97ECB713C7260B /* CalendarLib.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CalendarDemo/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CalendarLib/CalendarLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CalendarLib/CalendarLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CalendarDemo/Pods-CalendarDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CalendarDemo;
+				MODULEMAP_FILE = "Target Support Files/CalendarLib/CalendarLib.modulemap";
+				PRODUCT_MODULE_NAME = CalendarLib;
+				PRODUCT_NAME = CalendarLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		C4F7D72DBAE2317FD567B03B7186F6BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA6A2957B0D8809A9F6F3A173CAC5A75 /* OrderedDictionary.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OrderedDictionary/OrderedDictionary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OrderedDictionary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OrderedDictionary/OrderedDictionary.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OrderedDictionary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DFB46E022BAD4AC474FF1C3A2FA720F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F9BDA61B9C749A357770C19ACD3B8A /* OSCache.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OSCache/OSCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OSCache/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OSCache/OSCache.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OSCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F93BD3EEE805E271EC3C768C21399035 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F9BDA61B9C749A357770C19ACD3B8A /* OSCache.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OSCache/OSCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OSCache/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OSCache/OSCache.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = OSCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07144BF1E580A3278D85202D9E0EA237 /* Build configuration list for PBXNativeTarget "CalendarLib-CalendarLib" */ = {
+		19527B61401455B144FC949F4A9DBE6E /* Build configuration list for PBXNativeTarget "Pods-CalendarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6750A5EEEFDAD9ED14FD831849F29D1 /* Debug */,
-				80614831968EDB0B9E25AD957D95DAFA /* Release */,
+				1B63D9A87B1E6B2CF052B9BE5B644E4F /* Debug */,
+				0C19B26E191BA1E4D09F089038627B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47BEF9D903506B003EA5C2B249729489 /* Debug */,
-				AAF678CED40D3499169D10F63CA0719E /* Release */,
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CC8891570BE8E1A33A407A1C2B1D477 /* Build configuration list for PBXNativeTarget "OrderedDictionary" */ = {
+		688970CE8CE74CDCFCD1F322796A01B8 /* Build configuration list for PBXNativeTarget "CalendarLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56DEC5F3C442970AD928BA35839A79A3 /* Debug */,
-				C4F7D72DBAE2317FD567B03B7186F6BB /* Release */,
+				C88DA266214AA5088FDBB14122F87F0F /* Debug */,
+				F64CE1C0AF66D70633B67483AA8B101F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F57CD8D2CD27C91A8F740F9626848DC /* Build configuration list for PBXNativeTarget "Pods-CalendarDemo" */ = {
+		7E112A8B84085EF970DE40A450C8B3B6 /* Build configuration list for PBXNativeTarget "CalendarLib-CalendarLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FBDA6B82A65D6022AE9C118C723C902 /* Debug */,
-				C44DE9A570B41E729B012ADA5DD08621 /* Release */,
+				9EE45524CA42784485DB11DA48DB7B2D /* Debug */,
+				D5415FD5E96DC9E069117FBC1D7B6262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AF40903545821C2654D818E75824FFD /* Build configuration list for PBXNativeTarget "OSCache" */ = {
+		937D9D2368892CB42A5D4821E9D2952E /* Build configuration list for PBXNativeTarget "OSCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F93BD3EEE805E271EC3C768C21399035 /* Debug */,
-				DFB46E022BAD4AC474FF1C3A2FA720F2 /* Release */,
+				2F553EEA41DB975FA7FEF809CA3C8321 /* Debug */,
+				6533BAF03D2060C57019808F35599D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F26F9C94C86D2CEE93EC87FD35694730 /* Build configuration list for PBXNativeTarget "CalendarLib" */ = {
+		D72707B74368BBE57C16CA8CADF2A92A /* Build configuration list for PBXNativeTarget "OrderedDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0EF01E294EDC0EE7EF3B170A79099F7 /* Debug */,
-				0735BCB872CF18210AB3B60136419110 /* Release */,
+				466DBF67EBF0C37011513D83CEEA6ED2 /* Debug */,
+				A054808C424A04E7ADC9AD05B186E09C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

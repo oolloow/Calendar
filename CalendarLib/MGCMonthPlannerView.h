@@ -250,7 +250,7 @@ typedef NS_ENUM(NSUInteger, MGCMonthPlannerScrollAlignment) {
 /*!
 	@abstract	Registers a class for use in creating new event views for the month planner view.
 	@param		viewClass	The class of the view that you want to use.
-	@param		identifier	The reuse identifier to associate with the specified class.
+	@param		reuseIdentifier	The reuse identifier to associate with the specified class.
                             This parameter must not be nil and must not be an empty string.
 	@discussion	Prior to calling the dequeueReusableCellWithIdentifier:forEventAtIndex:date: method, you must use this method to tell the month planner how to create a new event view.
  */
@@ -258,7 +258,7 @@ typedef NS_ENUM(NSUInteger, MGCMonthPlannerScrollAlignment) {
 
 /*!
 	@abstract	Returns a reusable event view object located by its identifier.
-	@param		identifier	A string identifying the view object to be reused. This parameter must not be nil.
+	@param		reuseIdentifier	A string identifying the view object to be reused. This parameter must not be nil.
 	@param		index		The index of the event.
 	@param		date		The date of the event.
 	@return		A valid MGCEventView object.
@@ -326,7 +326,7 @@ typedef NS_ENUM(NSUInteger, MGCMonthPlannerScrollAlignment) {
 
 /*!
 	@abstract	Returns the event view at the specified point in the month planner view.
-	@param		point		A point in the month planner view’s coordinate system.
+	@param		pt		A point in the month planner view’s coordinate system.
 	@param		date		If not nil, it will contain on return the date of the event located at point.
     @param		index		If not nil, it will contain on return the index of the event located at point.
 	@return		The event view at the specified point, or nil if no event was found at the specified point.
@@ -335,7 +335,7 @@ typedef NS_ENUM(NSUInteger, MGCMonthPlannerScrollAlignment) {
 
 /*!
 	@abstract	Returns the date at the specified point in the month planner view.
-	@param		point		A point in the month planner view’s coordinate system.
+	@param		pt		A point in the month planner view’s coordinate system.
 	@return		The date at the specified point, or nil if the date can't be determined.
 */
 - (NSDate*)dayAtPoint:(CGPoint)pt;
