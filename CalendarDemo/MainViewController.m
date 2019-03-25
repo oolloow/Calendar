@@ -14,7 +14,6 @@
 #import "WeekSettingsViewController.h"
 #import "MonthSettingsViewController.h"
 
-
 typedef enum : NSUInteger
 {
     CalendarViewWeekType  = 0,
@@ -344,6 +343,5 @@ typedef enum : NSUInteger
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 @end

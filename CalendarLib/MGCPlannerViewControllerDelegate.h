@@ -34,7 +34,8 @@
 
 #import <EventKit/EventKit.h>
 #import <EventKitUI/EventKitUI.h>
-
+#import "MGCEventPresentationControllerProtocol.h"
+#import "MGCNewEventControllerProtocol.h"
 @protocol MGCPlannerViewControllerDelegate<NSObject>
 
 
@@ -42,6 +43,9 @@
 
 - (NSString*)calendarAccessDeniedWarning;
 - (NSArray<EKCalendar *> *)calendarsToFetchEventsFrom: (EKEventStore *)eventStore;
+
+- (UIViewController<MGCEventPresentationControllerProtocol> *)editControllerForEvent: (EKEvent *)event;
+- (UIViewController<MGCNewEventControllerProtocol> *)newEventControllerForEvent: (EKEvent *)event inStore: (EKEventStore *)store;
 @end
 
 

@@ -191,7 +191,7 @@ static const CGFloat kDefaultHeaderFontSizeiPhone = 8;
     
     NSMutableParagraphStyle *para = [NSMutableParagraphStyle new];
     para.alignment = NSTextAlignmentCenter;
-    para.lineBreakMode = NSLineBreakByCharWrapping;
+    para.lineBreakMode = NSLineBreakByClipping;
     
     return [[NSMutableAttributedString alloc]initWithString:s attributes:@{ NSFontAttributeName: font, NSForegroundColorAttributeName: color, NSParagraphStyleAttributeName: para }];
 }

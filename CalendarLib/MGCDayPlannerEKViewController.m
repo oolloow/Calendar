@@ -91,11 +91,19 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     
     MGCEventView *view = [self.dayPlannerView eventViewOfType:type atIndex:index date:date];
     
-    MGCEKEventViewController *eventController = [MGCEKEventViewController new];
-    eventController.event = ev;
-    eventController.delegate = self;
-    eventController.allowsEditing = YES;
-    eventController.allowsCalendarPreview = YES;
+    UIViewController *eventController;
+    if (![self.delegate respondsToSelector:@selector(editControllerForEvent:)]) {
+        MGCEKEventViewController *controller = [MGCEKEventViewController new];
+        controller.event = ev;
+        controller.delegate = self;
+        controller.allowsEditing = YES;
+        controller.allowsCalendarPreview = YES;
+        eventController = controller;
+    } else {
+        UIViewController<MGCEventPresentationControllerProtocol> *controller = [self.delegate editControllerForEvent:ev];
+        controller.delegate = self;
+        eventController = controller;
+    }
     
     UINavigationController *nc = nil;
     if ([self.delegate respondsToSelector:@selector(dayPlannerEKViewController:navigationControllerForPresentingEventViewController:)]) {
@@ -123,13 +131,20 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
 
 - (void)showPopoverForNewEvent:(EKEvent*)ev
 {
-    EKEventEditViewController *eventController = [EKEventEditViewController new];
-    eventController.event = ev;
-    eventController.eventStore = self.eventStore;
-    eventController.editViewDelegate = self; // called only when event is deleted
-    eventController.modalInPopover = YES;
-    eventController.modalPresentationStyle = UIModalPresentationPopover;
-    eventController.presentationController.delegate = self;
+    UIViewController *eventController;
+    if (![self.delegate respondsToSelector:@selector(newEventControllerForEvent:inStore:)]) {
+        EKEventEditViewController *eventController = [EKEventEditViewController new];
+        eventController.event = ev;
+        eventController.eventStore = self.eventStore;
+        eventController.editViewDelegate = self; // called only when event is deleted
+        eventController.modalInPopover = YES;
+        eventController.modalPresentationStyle = UIModalPresentationPopover;
+        eventController.presentationController.delegate = self;
+    } else {
+        UIViewController<MGCNewEventControllerProtocol> *controller = [self.delegate newEventControllerForEvent:ev inStore:self.eventStore];
+        controller.editViewDelegate = self;
+        eventController = controller;
+    }
     
     [self showDetailViewController:eventController sender:self];
     

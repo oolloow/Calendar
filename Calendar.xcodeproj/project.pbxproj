@@ -53,6 +53,8 @@
 		1F0C1F1B722A7E607C88C0FE /* Pods-CalendarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalendarDemo/Pods-CalendarDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		28486480EAA57CF147A3825F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		333CE7CF2243528F007DB620 /* MGCPlannerViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCPlannerViewControllerDelegate.h; sourceTree = "<group>"; };
+		333CE7E1224857D4007DB620 /* MGCEventPresentationControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCEventPresentationControllerProtocol.h; sourceTree = "<group>"; };
+		333CE7E222485BA7007DB620 /* MGCNewEventControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCNewEventControllerProtocol.h; sourceTree = "<group>"; };
 		720041B91879B2B600F3C497 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		720DAE511C6269D900DF8AAA /* NSAttributedString+MGCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MGCAdditions.h"; sourceTree = "<group>"; };
 		720DAE521C6269D900DF8AAA /* NSAttributedString+MGCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MGCAdditions.m"; sourceTree = "<group>"; };
@@ -225,6 +227,8 @@
 				72E82BBC1A80E197008B3E2F /* MGCDayPlannerEKViewController.m */,
 				72E82BC91A83A3FF008B3E2F /* MGCMonthPlannerEKViewController.h */,
 				72E82BCA1A83A3FF008B3E2F /* MGCMonthPlannerEKViewController.m */,
+				333CE7E1224857D4007DB620 /* MGCEventPresentationControllerProtocol.h */,
+				333CE7E222485BA7007DB620 /* MGCNewEventControllerProtocol.h */,
 			);
 			name = EventKit;
 			sourceTree = "<group>";
