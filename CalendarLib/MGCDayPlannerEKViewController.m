@@ -133,13 +133,14 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
 {
     UIViewController *eventController;
     if (![self.delegate respondsToSelector:@selector(newEventControllerForEvent:inStore:)]) {
-        EKEventEditViewController *eventController = [EKEventEditViewController new];
-        eventController.event = ev;
-        eventController.eventStore = self.eventStore;
-        eventController.editViewDelegate = self; // called only when event is deleted
-        eventController.modalInPopover = YES;
-        eventController.modalPresentationStyle = UIModalPresentationPopover;
-        eventController.presentationController.delegate = self;
+        EKEventEditViewController *controller = [EKEventEditViewController new];
+        controller.event = ev;
+        controller.eventStore = self.eventStore;
+        controller.editViewDelegate = self; // called only when event is deleted
+        controller.modalInPopover = YES;
+        controller.modalPresentationStyle = UIModalPresentationPopover;
+        controller.presentationController.delegate = self;
+        eventController = controller;
     } else {
         UIViewController<MGCNewEventControllerProtocol> *controller = [self.delegate newEventControllerForEvent:ev inStore:self.eventStore];
         controller.editViewDelegate = self;
