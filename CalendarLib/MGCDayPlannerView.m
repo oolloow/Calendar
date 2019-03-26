@@ -158,7 +158,7 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 @property (copy, nonatomic) dispatch_block_t scrollViewAnimationCompletionBlock;
 
 @property (nonatomic) OSCache *dimmedTimeRangesCache;          // cache for dimmed time ranges (indexed by date)
-
+@property (nonatomic) BOOL isRecentering;
 @end
 
 
@@ -206,6 +206,7 @@ static const CGFloat kMaxHourSlotHeight = 150.;
     _dimmedTimeRangesCache.countLimit = 200;
     
     _durationForNewTimedEvent = 60 * 60;
+    _isRecentering = NO;
     
 	self.backgroundColor = [UIColor whiteColor];
 	self.autoresizesSubviews = NO;
@@ -2190,7 +2191,9 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 			[self reloadCollectionViews];
 			
 			CGFloat newXOffset = -diff * self.dayColumnSize.width + self.controllingScrollView.contentOffset.x;
+            self.isRecentering = YES;
 			[self.controllingScrollView setContentOffset:CGPointMake(newXOffset, self.controllingScrollView.contentOffset.y)];
+            self.isRecentering = NO;
 			return YES;
 		}
 	}
@@ -2336,7 +2339,9 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 	[self lockScrollingDirection];
 	
 	if (self.scrollDirection & ScrollDirectionHorizontal) {
-		[self recenterIfNeeded];
+        if (!self.isRecentering) {
+            [self recenterIfNeeded];
+        }
 	}
 	
 	[self synchronizeScrolling];
