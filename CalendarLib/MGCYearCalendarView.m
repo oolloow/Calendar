@@ -277,7 +277,8 @@ static const CGFloat kDefaultYearHeaderFontSizeiPhone = 20;	// deafult font size
     NSDate *firstInYear = [self.calendar mgc_startOfYearForDate:date];
     
     // calc new startDate
-    NSInteger diff = [self adjustStartDate:firstInYear byNumberOfYears:-kYearsLoadingStep];
+    NSInteger diff = [self adjustStartDate:firstInYear byNumberOfYears:0]; // originally had -kYearsLoadingStep. If user mashed segmented control
+    // then this jumped tens of years back causing switch to really old dates for weeks back to crash the app.
     
     [self.eventsView reloadData];
     
