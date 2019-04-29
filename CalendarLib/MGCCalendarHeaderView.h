@@ -6,9 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MGCCalendarDayHeaderProtocol.h"
+
 @class MGCDayPlannerView;
 
-@interface MGCCalendarHeaderView : UICollectionView <UICollectionViewDataSource, UICollectionViewDelegate, UIScrollViewDelegate>
+@interface MGCCalendarHeaderView : UICollectionView <UICollectionViewDataSource, UICollectionViewDelegate, UIScrollViewDelegate, MGCCalendarDayHeaderProtocol>
 
 
 /*!
@@ -28,11 +30,5 @@
 	@discussion The day planner view instance needs to be passed along
  */
 - (instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout *)layout andDayPlannerView:(MGCDayPlannerView *)dayPlannerView;
-
-/*!
-	@abstract  Sets and moves the header view to the given date
-	@parameter date the date to be set
- */
-- (void)selectDate:(NSDate *)date;
 
 @end
