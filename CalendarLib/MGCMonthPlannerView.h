@@ -361,7 +361,7 @@ typedef NS_ENUM(NSUInteger, MGCMonthPlannerScrollAlignment) {
 
 /*!
 	@abstract	Reloads all events in given date range.
-	@param		range
+	@param		range        The range to reload events in.
 	@discussion The view discards any currently displayed visible event views in the range and redisplays them.
  */
 - (void)reloadEventsInRange:(MGCDateRange*)range;
@@ -528,7 +528,6 @@ typedef NS_ENUM(NSUInteger, MGCMonthPlannerScrollAlignment) {
 	@param		view		The month planner view object notifying about the selection change.
 	@param		index		The index of the event.
 	@param		date		The day of the event.
-	@return		YES if the event should be selected or NO if it should not.
 	@discussion	The month planner view calls this method when the user successfully selects an event. 
                 It does not call this method when you programmatically set the selection.
  */
@@ -550,7 +549,6 @@ typedef NS_ENUM(NSUInteger, MGCMonthPlannerScrollAlignment) {
 	@param		view		The month planner view object notifying about the selection change.
 	@param		index		The index of the event.
 	@param		date		The day of the event.
-	@return		YES if the event should be selected or NO if it should not.
 	@discussion This does not get called when you programmatically deselect an event with the deselectEvent method
  */
 - (void)monthPlannerView:(MGCMonthPlannerView*)view didDeselectEventAtIndex:(NSUInteger)index date:(NSDate*)date;
