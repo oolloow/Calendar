@@ -108,7 +108,7 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
         
         //CGRect visibleRect = CGRectIntersection(self.monthPlannerView.bounds, [self.monthPlannerView convertRect:view.bounds fromView:view]);
         UIPopoverPresentationController *popController = nc.popoverPresentationController;
-        popController.permittedArrowDirections = UIPopoverArrowDirectionLeft|UIPopoverArrowDirectionRight;
+        popController.permittedArrowDirections = UIPopoverArrowDirectionLeft|UIPopoverArrowDirectionRight|UIPopoverArrowDirectionUp|UIPopoverArrowDirectionDown;
         popController.delegate = self;
         popController.sourceView = self.monthPlannerView;
         popController.sourceRect = rect;
