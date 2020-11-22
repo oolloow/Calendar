@@ -55,7 +55,8 @@
 #define IPAD     UIUserInterfaceIdiomPad
 
 
-#define isiPad (IDIOM == IPAD ? YES:NO)
+//#define isiPad (IDIOM == IPAD ? YES:NO)
+#define isiPad ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
 
 #define kHeaderHeight 100
 

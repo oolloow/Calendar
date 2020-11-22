@@ -71,6 +71,7 @@
 
 - (void)prepareForReuse
 {
+    [super prepareForReuse];
 }
 
 - (void)layoutSubviews

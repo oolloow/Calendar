@@ -81,7 +81,11 @@ static const CGFloat dotSize = 4;
     }
     else if (self.headerHeight > 0) {
         if (!self.activityIndicatorView) {
-            self.activityIndicatorView = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+            if (@available(iOS 13.0, *)) {
+                self.activityIndicatorView = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle: UIActivityIndicatorViewStyleMedium];
+            } else {
+                self.activityIndicatorView = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle: UIActivityIndicatorViewStyleGray];
+            }
             self.activityIndicatorView.color = [UIColor blackColor];
             self.activityIndicatorView.transform = CGAffineTransformMakeScale(0.6, 0.6);
             [self.contentView addSubview:self.activityIndicatorView];

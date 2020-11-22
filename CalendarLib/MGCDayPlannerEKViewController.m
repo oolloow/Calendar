@@ -82,7 +82,10 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
 
     [self.eventsCache removeAllObjects];
     [self fetchEventsInDateRange:self.dayPlannerView.visibleDays];
-    [self.dayPlannerView reloadAllEvents];
+    MGCDayPlannerEKViewController * __weak weakSelf = self;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [weakSelf.dayPlannerView reloadAllEvents];
+    });
 }
 
 - (void)showEditControllerForEventOfType:(MGCEventType)type atIndex:(NSUInteger)index date:(NSDate*)date
@@ -137,7 +140,12 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
         controller.event = ev;
         controller.eventStore = self.eventStore;
         controller.editViewDelegate = self; // called only when event is deleted
-        controller.modalInPopover = YES;
+        if (@available(iOS 13.0, *)) {
+            controller.modalInPresentation = YES;
+        } else {
+            controller.modalInPopover = YES;
+        }
+        
         controller.modalPresentationStyle = UIModalPresentationPopover;
         controller.presentationController.delegate = self;
         eventController = controller;

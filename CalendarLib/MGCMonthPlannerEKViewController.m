@@ -124,7 +124,11 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
         controller.event = ev;
         controller.eventStore = self.eventStore;
         controller.editViewDelegate = self; // called only when event is deleted
-        controller.modalInPopover = YES;
+        if (@available(iOS 13.0, *)) {
+            controller.modalInPresentation = YES;
+        } else {
+            controller.modalInPopover = YES;
+        }
         controller.modalPresentationStyle = UIModalPresentationPopover;
         controller.presentationController.delegate = self;
         eventController = controller;
