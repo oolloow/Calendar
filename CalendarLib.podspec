@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name         = "CalendarLib"
-	s.version      = "2.1.10"
+	s.version      = "2.1.11"
 	s.summary      = "A set of views and controllers for displaying and scheduling events on iOS"
 	s.homepage     = "https://github.com/jumartin/Calendar"
 	s.license      = "MIT"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 	s.source       = { :git => "https://github.com/jumartin/Calendar.git", :tag => s.version.to_s }
 	s.screenshots 	= [ "https://raw.githubusercontent.com/jumartin/Calendar/master/CalendarDocs/DayPlannerView.jpg", "https://raw.githubusercontent.com/jumartin/Calendar/master/CalendarDocs/MonthPlannerView.jpg", "https://raw.githubusercontent.com/jumartin/Calendar/master/CalendarDocs/YearView.jpg"]
     s.source_files  = "CalendarLib/**/*.{h,m}"
-    s.public_header_files = "CalendarLib/{MGCDateRange.h,NSCalendar+MGCAdditions.h,NSAttributedString+MGCAdditions.h,MGCDayPlannerEKViewController.h,MGCMonthPlannerEKViewController.h,MGCEventView.h,MGCStandardEventView.h,MGCDayPlannerView.h,MGCDayPlannerViewController.h,MGCMonthPlannerView.h,MGCMonthPlannerViewController.h,MGCMonthMiniCalendarView.h,MGCYearCalendarView.h,MGCReusableObjectQueue.h,MGCPlannerViewControllerDelegate.h,MGCCalendarHeaderView.h,MGCEventPresentationControllerProtocol.h,MGCNewEventControllerProtocol.h,MGCCalendarDayHeaderProtocol.h}"
+    s.public_header_files = "CalendarLib/{MGCDateRange.h,NSCalendar+MGCAdditions.h,NSAttributedString+MGCAdditions.h,MGCDayPlannerEKViewController.h,MGCMonthPlannerEKViewController.h,MGCEventView.h,MGCStandardEventView.h,MGCDayPlannerView.h,MGCDayPlannerViewController.h,MGCMonthPlannerView.h,MGCMonthPlannerViewController.h,MGCMonthMiniCalendarView.h,MGCYearCalendarView.h,MGCReusableObjectQueue.h,MGCPlannerViewControllerDelegate.h,MGCCalendarHeaderView.h,MGCEventPresentationControllerProtocol.h,MGCNewEventControllerProtocol.h,MGCCalendarDayHeaderProtocol.h,EKEvent+EKEvent_Extensions.h}"
 	s.resources = "CalendarLib/**/*.xib"
 	s.resource_bundle = { 'CalendarLib' => ['CalendarLib/*.lproj'] }                    
 	s.frameworks = "EventKit", "EventKitUI", "UIKit", "Foundation", "CoreGraphics"

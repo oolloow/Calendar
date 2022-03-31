@@ -36,6 +36,7 @@
 #import "MGCDateRange.h"
 #import "OSCache.h"
 #import "MGCEventKitSupport.h"
+#import "EKEvent+EKEvent_Extensions.h"
 
 
 typedef enum {
@@ -394,10 +395,16 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     evCell.style = MGCStandardEventViewStylePlain|MGCStandardEventViewStyleSubtitle;
     evCell.style |= (type == MGCAllDayEventType) ?: MGCStandardEventViewStyleBorder;
     EKEvent *ev = [self eventOfType:type atIndex:index date:date];
+    
     if (ev != nil) {
         evCell.title = ev.title;
         evCell.subtitle = ev.location;
-        evCell.color = [UIColor colorWithCGColor:ev.calendar.CGColor];
+        UIColor *overrideColor = [ev getColor];
+        if (overrideColor != nil) {
+            evCell.color = overrideColor;
+        } else {
+            evCell.color = [UIColor colorWithCGColor:ev.calendar.CGColor];
+        }
     } else {
         evCell.title = nil;
         evCell.subtitle = nil;

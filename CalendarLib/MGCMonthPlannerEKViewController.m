@@ -35,6 +35,7 @@
 #import "NSCalendar+MGCAdditions.h"
 #import "OSCache.h"
 #import "MGCEventKitSupport.h"
+#import "EKEvent+EKEvent_Extensions.h"
 
 
 static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
@@ -414,7 +415,12 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
         evCell.title = ev.title;
         evCell.subtitle = ev.location;
         evCell.detail = [self.dateFormatter stringFromDate:ev.startDate];
-        evCell.color = [UIColor colorWithCGColor:ev.calendar.CGColor];
+        UIColor *overrideColor = [ev getColor];
+        if (overrideColor != nil) {
+            evCell.color = overrideColor;
+        } else {
+            evCell.color = [UIColor colorWithCGColor:ev.calendar.CGColor];
+        }
         
         NSDate *start = [self.calendar mgc_startOfDayForDate:ev.startDate];
         NSDate *end = [self.calendar mgc_nextStartOfDayForDate:ev.endDate];

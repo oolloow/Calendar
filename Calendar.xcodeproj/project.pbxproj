@@ -56,6 +56,8 @@
 		333CE7E1224857D4007DB620 /* MGCEventPresentationControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCEventPresentationControllerProtocol.h; sourceTree = "<group>"; };
 		333CE7E222485BA7007DB620 /* MGCNewEventControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCNewEventControllerProtocol.h; sourceTree = "<group>"; };
 		3353100B227689DA00901B2A /* MGCCalendarDayHeaderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCCalendarDayHeaderProtocol.h; sourceTree = "<group>"; };
+		33AE95E927F67241006A3044 /* EKEvent+EKEvent_Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKEvent+EKEvent_Extensions.h"; sourceTree = "<group>"; };
+		33AE95EA27F67241006A3044 /* EKEvent+EKEvent_Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "EKEvent+EKEvent_Extensions.m"; sourceTree = "<group>"; };
 		720041B91879B2B600F3C497 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		720DAE511C6269D900DF8AAA /* NSAttributedString+MGCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MGCAdditions.h"; sourceTree = "<group>"; };
 		720DAE521C6269D900DF8AAA /* NSAttributedString+MGCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MGCAdditions.m"; sourceTree = "<group>"; };
@@ -230,6 +232,8 @@
 				72E82BCA1A83A3FF008B3E2F /* MGCMonthPlannerEKViewController.m */,
 				333CE7E1224857D4007DB620 /* MGCEventPresentationControllerProtocol.h */,
 				333CE7E222485BA7007DB620 /* MGCNewEventControllerProtocol.h */,
+				33AE95E927F67241006A3044 /* EKEvent+EKEvent_Extensions.h */,
+				33AE95EA27F67241006A3044 /* EKEvent+EKEvent_Extensions.m */,
 			);
 			name = EventKit;
 			sourceTree = "<group>";
@@ -521,6 +525,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				fr,
 				Base,
