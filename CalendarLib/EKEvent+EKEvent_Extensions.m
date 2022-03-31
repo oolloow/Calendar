@@ -8,6 +8,7 @@
 
 #import "EKEvent+EKEvent_Extensions.h"
 #import <UIKit/UIKit.h>
+#import <objc/runtime.h>
 
 @implementation EKEvent (EKEvent_Extensions)
 
