@@ -411,7 +411,13 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
         evCell.color = [UIColor clearColor];
     }
     
+    [self additionalConfigurationFor:evCell with:ev];
+    
     return evCell;
+}
+
+- (void)additionalConfigurationFor:(MGCEventView*)view with:(EKEvent*)event {
+    
 }
 
 - (MGCDateRange*)dayPlannerView:(MGCDayPlannerView*)view dateRangeForEventOfType:(MGCEventType)type atIndex:(NSUInteger)index date:(NSDate*)date
