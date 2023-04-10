@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 	s.name         = "CalendarLib"
-	s.version      = "2.1.12"
+	s.version      = "2.1.13"
 	s.summary      = "A set of views and controllers for displaying and scheduling events on iOS"
 	s.homepage     = "https://github.com/jumartin/Calendar"
 	s.license      = "MIT"
 	s.author       = { "Julien Martin" => "julienmartin@hotmail.com" }
-	s.platform     = :ios, "8.0"
+	s.platform     = :ios, "13.0"
 	s.source       = { :git => "https://github.com/jumartin/Calendar.git", :tag => s.version.to_s }
 	s.screenshots 	= [ "https://raw.githubusercontent.com/jumartin/Calendar/master/CalendarDocs/DayPlannerView.jpg", "https://raw.githubusercontent.com/jumartin/Calendar/master/CalendarDocs/MonthPlannerView.jpg", "https://raw.githubusercontent.com/jumartin/Calendar/master/CalendarDocs/YearView.jpg"]
     s.source_files  = "CalendarLib/**/*.{h,m}"
