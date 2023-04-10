@@ -399,11 +399,13 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     if (ev != nil) {
         evCell.title = ev.title;
         evCell.subtitle = ev.location;
-        UIColor *overrideColor = [ev getColor];
-        if (overrideColor != nil) {
-            evCell.color = overrideColor;
-        } else {
-            evCell.color = [UIColor colorWithCGColor:ev.calendar.CGColor];
+        if ([ev respondsToSelector:@selector(getColor)]) {
+            UIColor *overrideColor = [ev getColor];
+            if (overrideColor != nil) {
+                evCell.color = overrideColor;
+            } else {
+                evCell.color = [UIColor colorWithCGColor:ev.calendar.CGColor];
+            }
         }
     } else {
         evCell.title = nil;
