@@ -416,7 +416,7 @@ static NSString* const EventCellReuseIdentifier = @"EventCellReuseIdentifier";
     return evCell;
 }
 
-- (void)additionalConfigurationFor:(MGCEventView*)view with:(EKEvent*)event {
+- (void)additionalConfigurationFor:(MGCEventView*)view with:(EKEvent* _Nullable)event {
     
 }
 

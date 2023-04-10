@@ -47,7 +47,7 @@
 - (instancetype)initWithEventStore:(EKEventStore*)eventStore;
 - (void)reloadEvents;
 
-- (void)additionalConfigurationFor:(MGCEventView*)view with:(EKEvent*)event;
+- (void)additionalConfigurationFor:(MGCEventView*)view with:(EKEvent* _Nullable)event;
 
 @end
 
