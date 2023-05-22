@@ -65,6 +65,8 @@ static CGFloat kItemHeight = 60;
         
         //setup a calendar to do the dates calculations
         self.calendar = [NSCalendar currentCalendar];
+        // OW customisation
+        self.calendar.firstWeekday = 2;
         [self.calendar setLocale:[NSLocale currentLocale]]; //use the current locale to fit the user region
         self.selectedDate = [self.calendar startOfDayForDate:[NSDate date]];
         self.selectedDateIndex = [self.calendar component:NSCalendarUnitWeekday fromDate:self.selectedDate] -1; //-1 as 1 is the first day of the week, but we are dealing with arrays starting on 0
@@ -139,9 +141,15 @@ static CGFloat kItemHeight = 60;
     
     NSMutableArray* weekDaysDates = [NSMutableArray array];
     
+    // OW customisation
     //iterate to fill the dates of the week days
+    int *targetWeekday = self.calendar.firstWeekday;
     for (int i = 1; i <= 7; i++) { //1 is the comopnent for the first day of week 7 the last
-        [components setWeekday:i];
+        [components setWeekday: targetWeekday];
+        targetWeekday = targetWeekday + 1;
+        if (targetWeekday >= 7) {
+            targetWeekday = 1;
+        }
         NSDate* date = [self.calendar dateFromComponents:components];
         [weekDaysDates addObject:date];
     }
