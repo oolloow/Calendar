@@ -143,7 +143,7 @@ static CGFloat kItemHeight = 60;
     
     // OW customisation
     //iterate to fill the dates of the week days
-    int *targetWeekday = self.calendar.firstWeekday;
+    NSUInteger targetWeekday = self.calendar.firstWeekday;
     for (int i = 1; i <= 7; i++) { //1 is the comopnent for the first day of week 7 the last
         [components setWeekday: targetWeekday];
         targetWeekday = targetWeekday + 1;
