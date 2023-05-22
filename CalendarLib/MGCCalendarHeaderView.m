@@ -147,7 +147,7 @@ static CGFloat kItemHeight = 60;
     for (int i = 1; i <= 7; i++) { //1 is the comopnent for the first day of week 7 the last
         [components setWeekday: targetWeekday];
         targetWeekday = targetWeekday + 1;
-        if (targetWeekday >= 7) {
+        if (targetWeekday > 7) {
             targetWeekday = 1;
         }
         NSDate* date = [self.calendar dateFromComponents:components];
