@@ -35,6 +35,7 @@ typedef NS_ENUM(NSInteger, HeaderSection){
 @property (nonatomic, strong) NSDateFormatter *detailsDateFormater;
 
 
+@property (nonatomic) NSArray *weekDayIndexes;
 @end
 
 @implementation MGCCalendarHeaderView
@@ -69,7 +70,20 @@ static CGFloat kItemHeight = 60;
         self.calendar.firstWeekday = 2;
         [self.calendar setLocale:[NSLocale currentLocale]]; //use the current locale to fit the user region
         self.selectedDate = [self.calendar startOfDayForDate:[NSDate date]];
-        self.selectedDateIndex = [self.calendar component:NSCalendarUnitWeekday fromDate:self.selectedDate] -1; //-1 as 1 is the first day of the week, but we are dealing with arrays starting on 0
+        NSMutableArray *arr = [[NSMutableArray alloc] init];
+        NSUInteger targetWeekday = self.calendar.firstWeekday;
+        for (int i = 1; i <= 7; i++) {
+            [arr addObject: @(targetWeekday)];
+            targetWeekday += 1;
+            if (targetWeekday > 7) {
+                targetWeekday = 1;
+            }
+        }
+        
+        self.weekDayIndexes = arr;
+        NSUInteger currentWeekday = [self.calendar component:NSCalendarUnitWeekday fromDate:self.selectedDate];
+        
+        self.selectedDateIndex = [self.weekDayIndexes indexOfObjectIdenticalTo: @(currentWeekday)]; //-1 as 1 is the first day of the week, but we are dealing with arrays starting on 0
         
         //setup the collection view
         self.pagingEnabled = YES;
@@ -143,13 +157,8 @@ static CGFloat kItemHeight = 60;
     
     // OW customisation
     //iterate to fill the dates of the week days
-    NSUInteger targetWeekday = self.calendar.firstWeekday;
-    for (int i = 1; i <= 7; i++) { //1 is the comopnent for the first day of week 7 the last
-        [components setWeekday: targetWeekday];
-        targetWeekday = targetWeekday + 1;
-        if (targetWeekday > 7) {
-            targetWeekday = 1;
-        }
+    for (NSNumber *weekday in self.weekDayIndexes) {
+        [components setWeekday: [weekday unsignedIntegerValue]];
         NSDate* date = [self.calendar dateFromComponents:components];
         [weekDaysDates addObject:date];
     }
@@ -182,7 +191,8 @@ static CGFloat kItemHeight = 60;
     if(![self.calendar isDate:date inSameDayAsDate:self.selectedDate]){
         
         self.selectedDate = [self.calendar startOfDayForDate:date];
-        self.selectedDateIndex = [self.calendar component:NSCalendarUnitWeekday fromDate:self.selectedDate] -1;
+        NSUInteger targetWeekday = [self.calendar component:NSCalendarUnitWeekday fromDate:self.selectedDate];
+        self.selectedDateIndex = [self.weekDayIndexes indexOfObjectIdenticalTo: @(targetWeekday)];
         
         //setup the new weeks dates
         [self setupWeekDates];
