@@ -1963,6 +1963,9 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 - (CGRect)collectionView:(UICollectionView *)collectionView layout:(MGCTimedEventsViewLayout *)layout rectForEventAtIndexPath:(NSIndexPath *)indexPath
 {
     NSDate *date = [self dateFromDayOffset:indexPath.section];
+    if (date == nil) {
+        return CGRectNull;
+    }
     
     MGCDateRange *dayRange = [self scrollableTimeRangeForDate:date];
     
@@ -1971,13 +1974,15 @@ static const CGFloat kMaxHourSlotHeight = 150.;
     
     [eventRange intersectDateRange:dayRange];
     
+    CGFloat y1 = [self offsetFromDate:eventRange.start];
     if (!eventRange.isEmpty) {
-        CGFloat y1 = [self offsetFromDate:eventRange.start];
         CGFloat y2 = [self offsetFromDate:eventRange.end];
         
-        return CGRectMake(0, y1, 0, y2 - y1);
+        return CGRectMake(0, y1, 0, MAX(y2 - y1, 15));
     }
-    return CGRectNull;
+    
+    // Minimum height for events that are shorter than 5 mins.
+    return CGRectMake(0, y1, 0, 15);
 }
 
 - (NSArray*)dimmedTimeRangesAtDate:(NSDate*)date
