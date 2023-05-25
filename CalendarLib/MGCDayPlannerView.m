@@ -1378,7 +1378,7 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 	}
 	else {
 		if ([self.dataSource respondsToSelector:@selector(dayPlannerView:canMoveEventOfType:atIndex:date:toType:date:)]) {
-			if (date && ![self.dataSource dayPlannerView:self canMoveEventOfType:self.movingEventType atIndex:self.movingEventIndex date:self.movingEventDate toType:type date:date]) {
+			if (date && self.movingEventDate && ![self.dataSource dayPlannerView:self canMoveEventOfType:self.movingEventType atIndex:self.movingEventIndex date:self.movingEventDate toType:type date:date]) {
 				self.acceptsTarget = NO;
 			}
 		}
