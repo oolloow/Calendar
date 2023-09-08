@@ -233,6 +233,14 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 
 - (void)dealloc
 {
+    if (self.dragTimer) {
+        [self.dragTimer invalidate];
+    }
+    
+    if (self.timeRowsView.showsCurrentTime) {
+        self.timeRowsView.showsCurrentTime = NO;
+    }
+    
 	[[NSNotificationCenter defaultCenter] removeObserver:self];  // for UIApplicationDidReceiveMemoryWarningNotification
 }
 
