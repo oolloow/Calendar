@@ -600,6 +600,10 @@ typedef NS_ENUM(NSUInteger, MGCDayPlannerCoveringType) {
  */
 - (MGCDateRange*)dayPlannerView:(MGCDayPlannerView*)view dimmedTimeRangeAtIndex:(NSUInteger)index date:(NSDate*)date;
 
+/*!
+    @abstract   Asks the delegate for the dimmed time range at given date and index.
+ */
+- (UIColor*)dayPlannerView:(MGCDayPlannerView*)view backgroundColorForDimmedTimeRangeAt:(NSIndexPath*)index date:(NSDate*)date;
 
 /*!
 	@group Responding to scrolling
