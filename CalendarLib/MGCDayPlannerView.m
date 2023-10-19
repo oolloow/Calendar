@@ -1940,8 +1940,11 @@ static const CGFloat kMaxHourSlotHeight = 150.;
 {
     if ([kind isEqualToString:DimmingViewKind]) {
         UICollectionReusableView *view = [self.timedEventsView dequeueReusableSupplementaryViewOfKind:DimmingViewKind withReuseIdentifier:DimmingViewReuseIdentifier forIndexPath:indexPath];
-        if ([self.delegate respondsToSelector:@selector(dayPlannerView:backgroundColorForDimmedTimeRangeAt:date:)]) {
-            view.backgroundColor = [self.delegate dayPlannerView:self backgroundColorForDimmedTimeRangeAt:indexPath date: [self dateFromDayOffset:indexPath.section]];
+        if ([self.delegate respondsToSelector:@selector(dayPlannerView:backgroundColorForDimmedTimeRange:atDate:)]) {
+            NSDate *date = [self dateFromDayOffset: indexPath.section];
+            NSArray *ranges = [self.dimmedTimeRangesCache objectForKey:date];
+            MGCDateRange *range = [ranges objectAtIndex:indexPath.item];
+            view.backgroundColor = [self.delegate dayPlannerView:self backgroundColorForDimmedTimeRange:range atDate:date];
         } else {
             view.backgroundColor = self.dimmingColor;
         }
@@ -2026,6 +2029,7 @@ static const CGFloat kMaxHourSlotHeight = 150.;
     NSDate *date = [self dateFromDayOffset:section];
 
     NSArray *ranges = [self.dimmedTimeRangesCache objectForKey:date];
+    
     if (!ranges) {
         ranges = [self dimmedTimeRangesAtDate:date];
         [self.dimmedTimeRangesCache setObject:ranges forKey:date];
